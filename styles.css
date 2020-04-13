@@ -1,0 +1,20 @@
+/* purgecss start ignore */
+@tailwind base;
+@tailwind components;
+/* purgecss end ignore */
+
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@400;700&display=swap');
+
+.massive {
+  font-size: 14rem;
+}
+
+.button {
+  @apply bg-eg-blue px-12 py-6 uppercase font-ant text-white tracking-widest transition duration-300;
+}
+
+.button:hover {
+  @apply bg-blue-900 cursor-pointer;
+}
