@@ -1,15 +1,33 @@
 module.exports = {
-	theme: {
-		extend: {
-			colors: {
-				eg: {
-					blue: '#3485a7',
-				},
-			},
-			fontFamily: {
-				mont: ['Montserrat', 'sans-serif'],
-				ant: ['Anton', 'sans-serif'],
-			},
-		},
-	},
+  theme: {
+    extend: {
+      spacing: {
+        px: "1px",
+        "2px": "2px",
+      },
+      colors: {
+        eg: {
+          blue: "#3485a7",
+        },
+      },
+      fontSize: {
+        mega: "8rem",
+        mighty: "12rem",
+        massive: "16rem",
+      },
+      fontFamily: {
+        mont: ["Montserrat", "sans-serif"],
+        ant: ["Anton", "sans-serif"],
+      },
+      inset: {
+        "1/2": "50%",
+      },
+      screens: {
+        md: "640px",
+        lg: "1024px",
+        xl: "1280px",
+        xxl: "1440px",
+      },
+    },
+  },
 };

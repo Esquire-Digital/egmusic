@@ -1,18 +1,58 @@
 export default function FrontHero() {
-	return (
-		<>
-			<section className="relative w-full h-screen flex flex-col items-center justify-end">
-				<img className="absolute left-0 top-0 w-full h-full object-cover object-top" src="/images/banner.png" alt="EG Music on stage" />
-				<p className="text-gray-600 z-10 uppercase massive mb-16 font-ant">EG Music</p>
-				<div className="absolute right-0 bottom-0 mr-32 mb-32 z-10">
-					<button className="button primary mr-4">Sign up for updates</button>
-					<button className="button primary">Listen</button>
-				</div>
-				<div className="absolute right-0 inset-y-0 transform translate-y-1/2 z-10 text-white font-mont font-bold uppercase">
-					<span className="block transform -rotate-90">Follow</span>
-					<div></div>
-				</div>
-			</section>
-		</>
-	);
+  return (
+    <section className="relative w-full h-screen">
+      <img
+        className="absolute top-0 left-0 object-cover object-top w-full h-full"
+        src="/images/banner.png"
+        alt="EG Music on stage"
+      />
+      <div className="absolute bottom-0 z-10 mb-48 transform -translate-x-1/2 lg:mb-32 left-1/2">
+        <p className="inline-block leading-none text-center text-gray-600 uppercase whitespace-no-wrap text-mega lg:text-mighty xxl:text-massive font-ant">
+          EG Music
+        </p>
+        <div className="absolute inset-x-0 bottom-0 z-10 flex flex-col items-center justify-center transform translate-y-full lg:translate-y-8 lg:flex-row lg:justify-end lg:right-0 lg:translate-x-16 xl:translate-y-4">
+          <button className="mb-2 lg:mr-4 button primary">
+            Sign up for updates
+            <img src="/images/arrow-right.png" alt="Arrow right" />
+          </button>
+          <button className="button primary">
+            Listen
+            <img src="/images/arrow-right.png" alt="Arrow right" />
+          </button>
+        </div>
+      </div>
+      <div className="absolute right-0 z-10 flex-row items-center hidden mr-8 font-bold text-white uppercase transform -rotate-90 translate-x-1/2 translate-y-1/2 lg:flex top-1/2 font-mont">
+        <span className="text-xl text-white uppercase font-ant">Follow</span>
+        <div className="block w-16 mx-4 bg-white h-2px"></div>
+        <a href="#" className="mx-2">
+          <img
+            className="transform rotate-90"
+            src="/images/facebook-f.png"
+            alt="Facebook icon"
+          />
+        </a>
+        <a href="#" className="mx-2">
+          <img
+            className="transform rotate-90"
+            src="/images/instagram.png"
+            alt="Instagram icon"
+          />
+        </a>
+        <a href="#" className="mx-2">
+          <img
+            className="transform rotate-90"
+            src="/images/twitter.png"
+            alt="Twitter icon"
+          />
+        </a>
+        <a href="#" className="mx-2">
+          <img
+            className="transform rotate-90"
+            src="/images/youtube.png"
+            alt="Youtube icon"
+          />
+        </a>
+      </div>
+    </section>
+  );
 }

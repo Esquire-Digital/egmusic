@@ -5,14 +5,18 @@
 
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Anton|Montserrat:400,700&display=swap");
 
-.massive {
-  font-size: 14rem;
+body {
+  @apply antialiased font-mont;
 }
 
 .button {
-  @apply bg-eg-blue px-12 py-6 uppercase font-ant text-white tracking-widest transition duration-300;
+  @apply flex flex-row items-center justify-between px-12 py-6 tracking-widest text-white uppercase transition duration-300 bg-eg-blue font-ant;
+}
+
+.button > img {
+  @apply ml-4;
 }
 
 .button:hover {
