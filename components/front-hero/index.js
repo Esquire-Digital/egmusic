@@ -1,17 +1,20 @@
 export default function FrontHero() {
   return (
-    <section className="relative w-full h-screen">
+    <section
+      className="relative w-full h-screen"
+      style={{ minHeight: "650px" }}
+    >
       <img
         className="absolute top-0 left-0 object-cover object-top w-full h-full"
         src="/images/banner.png"
         alt="EG Music on stage"
       />
-      <div className="absolute bottom-0 z-10 mb-48 transform -translate-x-1/2 lg:mb-32 left-1/2">
-        <p className="inline-block leading-none text-center text-gray-600 uppercase whitespace-no-wrap text-mega lg:text-mighty xxl:text-massive font-ant">
+      <div className="absolute bottom-0 z-10 w-full px-8 mb-48 transform -translate-x-1/2 lg:mb-32 left-1/2 lg:px-0 lg:w-auto">
+        <p className="inline-block w-full mb-16 text-6xl leading-none text-center text-gray-600 uppercase whitespace-no-wrap md:text-mega lg:text-mighty xxl:text-massive font-ant lg:mb-0">
           EG Music
         </p>
         <div className="absolute inset-x-0 bottom-0 z-10 flex flex-col items-center justify-center transform translate-y-full lg:translate-y-8 lg:flex-row lg:justify-end lg:right-0 lg:translate-x-16 xl:translate-y-4">
-          <button className="mb-2 lg:mr-4 button primary">
+          <button className="mb-2 lg:mb-0 lg:mr-4 button primary">
             Sign up for updates
             <img src="/images/arrow-right.png" alt="Arrow right" />
           </button>
