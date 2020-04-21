@@ -1,12 +1,15 @@
+import { Image, Transformation } from "cloudinary-react";
+
 export default function Bio() {
   return (
     <section className="flex flex-col mx-auto md:flex-row" id="learn">
       <div className="md:w-1/2">
-        <img
+        <Image
           className="object-cover object-center w-full h-full"
-          src="/images/profile-photo.png"
-          alt="Emily standing on the street, holding a guitar with one hand"
-        />
+          publicId="/images/profile-photo.png"
+        >
+          <Transformation format="auto" quality="auto" />
+        </Image>
       </div>
       <div className="flex flex-col justify-center p-8 md:p-12 lg:p-16 xl:px-24 md:w-1/2">
         <p className="mb-12 text-4xl font-bold leading-none xxl:text-6xl font-mont text-eg-blue">

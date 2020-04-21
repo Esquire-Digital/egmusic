@@ -1,5 +1,6 @@
 import Modal from "../modal";
 import { useState } from "react";
+import { Image, Transformation } from "cloudinary-react";
 
 export default function FeaturedVideos() {
   const [embed, setEmbed] = useState("");
@@ -20,11 +21,12 @@ export default function FeaturedVideos() {
       >
         <div className="flex flex-col items-end justify-end">
           <div className="relative">
-            <img
+            <Image
               className="relative z-10 object-cover object-center w-full h-full"
-              src="/images/thumb-1.png"
-              alt=""
-            />
+              publicId="/images/thumb-1.png"
+            >
+              <Transformation format="auto" quality="auto" />>
+            </Image>
             <div className="absolute bottom-0 left-0 w-full h-full transform -translate-x-6 translate-y-6 bg-eg-blue"></div>
           </div>
           <button
@@ -38,11 +40,12 @@ export default function FeaturedVideos() {
         </div>
         <div className="flex flex-col items-end justify-end">
           <div className="relative">
-            <img
+            <Image
               className="relative z-10 object-cover object-center w-full h-full"
-              src="/images/thumb-2.png"
-              alt=""
-            />
+              publicId="/images/thumb-2.png"
+            >
+              <Transformation format="auto" quality="auto" />
+            </Image>
             <div className="absolute bottom-0 left-0 w-full h-full transform -translate-x-6 translate-y-6 bg-eg-blue"></div>
           </div>
           <button
