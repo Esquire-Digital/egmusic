@@ -1,3 +1,5 @@
+import gotoLink from "../../utils/goto-link";
+
 export default function FrontHero() {
   return (
     <section
@@ -18,7 +20,12 @@ export default function FrontHero() {
             Sign up for updates
             <img src="/images/arrow-right.png" alt="Arrow right" />
           </button>
-          <button className="button primary">
+          <button
+            className="button primary"
+            onClick={() => {
+              gotoLink("listen");
+            }}
+          >
             Listen
             <img src="/images/arrow-right.png" alt="Arrow right" />
           </button>
@@ -27,34 +34,34 @@ export default function FrontHero() {
       <div className="absolute right-0 z-10 flex-row items-center hidden mr-8 font-bold text-white uppercase transform -rotate-90 translate-x-1/2 translate-y-1/2 lg:flex top-1/2 font-mont">
         <span className="text-xl text-white uppercase font-ant">Follow</span>
         <div className="block w-16 mx-4 bg-white h-2px"></div>
-        <a href="#" className="mx-2">
+        <a href="https://www.facebook.com/EGmusicNYC/" className="mx-4">
           <img
             className="transform rotate-90"
             src="/images/facebook-f.png"
             alt="Facebook icon"
           />
         </a>
-        <a href="#" className="mx-2">
+        <a href="https://www.instagram.com/egmusicnyc/" className="mx-4">
           <img
             className="transform rotate-90"
             src="/images/instagram.png"
             alt="Instagram icon"
           />
         </a>
-        <a href="#" className="mx-2">
+        {/* <a href="#" className="mx-2">
           <img
             className="transform rotate-90"
             src="/images/twitter.png"
             alt="Twitter icon"
           />
-        </a>
-        <a href="#" className="mx-2">
+        </a> */}
+        {/* <a href="#" className="mx-2">
           <img
             className="transform rotate-90"
             src="/images/youtube.png"
             alt="Youtube icon"
           />
-        </a>
+        </a> */}
       </div>
     </section>
   );

@@ -8,6 +8,7 @@ module.exports = {
       colors: {
         eg: {
           blue: "#3485a7",
+          black: "#424b54",
         },
       },
       fontSize: {
@@ -21,6 +22,10 @@ module.exports = {
       },
       inset: {
         "1/2": "50%",
+      },
+      minHeight: {
+        "300": "300px",
+        "450": "450px",
       },
       screens: {
         md: "640px",

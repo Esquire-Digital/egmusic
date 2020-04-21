@@ -1,6 +1,6 @@
 export default function Bio() {
   return (
-    <section className="flex flex-col mx-auto md:flex-row max-w-screen-xxl">
+    <section className="flex flex-col mx-auto md:flex-row" id="learn">
       <div className="md:w-1/2">
         <img
           className="object-cover object-center w-full h-full"

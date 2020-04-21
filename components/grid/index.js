@@ -1,6 +1,9 @@
 export default function Grid() {
   return (
-    <section className="relative grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+    <section
+      className="relative grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
+      id="follow"
+    >
       <img
         className="object-cover object-center w-full h-full"
         src="/images/grid-1.png"

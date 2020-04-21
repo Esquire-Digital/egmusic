@@ -15,10 +15,30 @@ body {
   @apply flex flex-row items-center justify-center px-12 py-6 leading-tight tracking-widest text-white uppercase transition duration-300 bg-eg-blue font-ant;
 }
 
+.button.black {
+  @apply bg-eg-black;
+}
+
 .button > img {
   @apply ml-4;
 }
 
 .button:hover {
   @apply bg-blue-900 cursor-pointer;
+}
+
+.modal {
+  @apply fixed inset-0 z-50 w-full h-full transition-all duration-300 transform scale-90 opacity-0 pointer-events-none;
+}
+
+.modal--open {
+  @apply scale-100 opacity-100 pointer-events-auto;
+}
+
+.btt {
+  @apply fixed bottom-0 right-0 z-40 mb-4 mr-4 text-white transition-all duration-300 opacity-0 pointer-events-none bg-eg-blue;
+}
+
+.btt--open {
+  @apply opacity-100 pointer-events-auto;
 }
