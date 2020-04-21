@@ -21,6 +21,7 @@ export default function FeaturedVideos() {
         <div className="flex flex-col items-end justify-end">
           <div className="relative">
             <img
+              loading="lazy"
               className="relative z-10 object-cover object-center w-full h-full"
               src="/images/thumb-1.png?webp"
               alt=""
@@ -39,6 +40,7 @@ export default function FeaturedVideos() {
         <div className="flex flex-col items-end justify-end">
           <div className="relative">
             <img
+              loading="lazy"
               className="relative z-10 object-cover object-center w-full h-full"
               src="/images/thumb-2.png?webp"
               alt=""

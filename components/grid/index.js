@@ -5,31 +5,37 @@ export default function Grid() {
       id="follow"
     >
       <img
+        loading="lazy"
         className="object-cover object-center w-full h-full"
         src="/images/grid-1.png?webp"
         alt=""
       />
       <img
+        loading="lazy"
         className="object-cover object-center w-full h-full"
         src="/images/grid-2.png?webp"
         alt=""
       />
       <img
+        loading="lazy"
         className="object-cover object-center w-full h-full"
         src="/images/grid-3.png?webp"
         alt=""
       />
       <img
+        loading="lazy"
         className="object-cover object-center w-full h-full"
         src="/images/grid-4.png?webp"
         alt=""
       />
       <img
+        loading="lazy"
         className="object-cover object-center w-full h-full"
         src="/images/grid-5.png?webp"
         alt=""
       />
       <img
+        loading="lazy"
         className="object-cover object-center w-full h-full"
         src="/images/grid-6.png?webp"
         alt=""

@@ -38,7 +38,11 @@ export default function UpcomingShows({ shows }) {
                 rel="noopener noreferrer"
               >
                 RSVP
-                <img src="/images/arrow-right.png?webp" alt="Arrow right" />
+                <img
+                  loading="lazy"
+                  src="/images/arrow-right.png?webp"
+                  alt="Arrow right"
+                />
               </a>
             </div>
           </div>

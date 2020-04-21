@@ -7,6 +7,7 @@ export default function FrontHero() {
       style={{ minHeight: "650px" }}
     >
       <img
+        loading="lazy"
         className="absolute top-0 left-0 object-cover object-top w-full h-full"
         src="/images/banner.png?webp"
         alt="EG Music on stage"
@@ -18,7 +19,11 @@ export default function FrontHero() {
         <div className="absolute inset-x-0 bottom-0 z-10 flex flex-col items-center justify-center transform translate-y-full lg:translate-y-8 lg:flex-row lg:justify-end lg:right-0 lg:translate-x-16 xl:translate-y-4">
           <button className="mb-2 lg:mb-0 lg:mr-4 button primary">
             Sign up for updates
-            <img src="/images/arrow-right.png?webp" alt="Arrow right" />
+            <img
+              loading="lazy"
+              src="/images/arrow-right.png?webp"
+              alt="Arrow right"
+            />
           </button>
           <button
             className="button primary"
@@ -27,7 +32,11 @@ export default function FrontHero() {
             }}
           >
             Listen
-            <img src="/images/arrow-right.png?webp" alt="Arrow right" />
+            <img
+              loading="lazy"
+              src="/images/arrow-right.png?webp"
+              alt="Arrow right"
+            />
           </button>
         </div>
       </div>
@@ -36,6 +45,7 @@ export default function FrontHero() {
         <div className="block w-16 mx-4 bg-white h-2px"></div>
         <a href="https://www.facebook.com/EGmusicNYC/" className="mx-4">
           <img
+            loading="lazy"
             className="transform rotate-90"
             src="/images/facebook-f.png?webp"
             alt="Facebook icon"
@@ -43,20 +53,21 @@ export default function FrontHero() {
         </a>
         <a href="https://www.instagram.com/egmusicnyc/" className="mx-4">
           <img
+            loading="lazy"
             className="transform rotate-90"
             src="/images/instagram.png?webp"
             alt="Instagram icon"
           />
         </a>
         {/* <a href="#" className="mx-2">
-          <img
+          <img loading="lazy"
             className="transform rotate-90"
             src="/images/twitter.png?webp"
             alt="Twitter icon"
           />
         </a> */}
         {/* <a href="#" className="mx-2">
-          <img
+          <img loading="lazy"
             className="transform rotate-90"
             src="/images/youtube.png?webp"
             alt="Youtube icon"

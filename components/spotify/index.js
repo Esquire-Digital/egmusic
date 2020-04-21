@@ -11,6 +11,7 @@ export default function Spotify() {
         id="listen"
       >
         <img
+          loading="lazy"
           className="absolute bottom-0 left-0 w-64"
           src="/images/spotify.png?webp"
           alt="Spotify logo"
@@ -22,7 +23,11 @@ export default function Spotify() {
           rel="noopener noreferrer"
         >
           Listen on spotify
-          <img src="/images/arrow-right.png?webp" alt="Arrow right" />
+          <img
+            loading="lazy"
+            src="/images/arrow-right.png?webp"
+            alt="Arrow right"
+          />
         </a>
       </section>
     </>

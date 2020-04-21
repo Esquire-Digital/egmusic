@@ -3,6 +3,7 @@ export default function Bio() {
     <section className="flex flex-col mx-auto md:flex-row" id="learn">
       <div className="md:w-1/2">
         <img
+          loading="lazy"
           className="object-cover object-center w-full h-full"
           src="/images/profile-photo.png?webp"
           alt="Emily standing on the street, holding a guitar with one hand"
