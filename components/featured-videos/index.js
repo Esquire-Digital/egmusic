@@ -22,7 +22,7 @@ export default function FeaturedVideos() {
           <div className="relative">
             <img
               className="relative z-10 object-cover object-center w-full h-full"
-              src="/images/thumb-1.png"
+              src="/images/thumb-1.png?webp"
               alt=""
             />
             <div className="absolute bottom-0 left-0 w-full h-full transform -translate-x-6 translate-y-6 bg-eg-blue"></div>
@@ -40,7 +40,7 @@ export default function FeaturedVideos() {
           <div className="relative">
             <img
               className="relative z-10 object-cover object-center w-full h-full"
-              src="/images/thumb-2.png"
+              src="/images/thumb-2.png?webp"
               alt=""
             />
             <div className="absolute bottom-0 left-0 w-full h-full transform -translate-x-6 translate-y-6 bg-eg-blue"></div>

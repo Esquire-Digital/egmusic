@@ -26,7 +26,7 @@ export default function Header() {
         <div className="w-1/2">
           <a href="/">
             <img
-              src="/images/eg-logo.png"
+              src="/images/eg-logo.png?webp"
               alt="EG Music Logo"
               className="w-16 lg:w-24"
             />

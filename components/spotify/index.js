@@ -12,7 +12,7 @@ export default function Spotify() {
       >
         <img
           className="absolute bottom-0 left-0 w-64"
-          src="/images/spotify.png"
+          src="/images/spotify.png?webp"
           alt="Spotify logo"
         />
         <a
@@ -22,7 +22,7 @@ export default function Spotify() {
           rel="noopener noreferrer"
         >
           Listen on spotify
-          <img src="/images/arrow-right.png" alt="Arrow right" />
+          <img src="/images/arrow-right.png?webp" alt="Arrow right" />
         </a>
       </section>
     </>

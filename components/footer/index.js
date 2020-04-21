@@ -82,13 +82,13 @@ export default function Footer() {
           </div>
           <div className="flex justify-center mt-8 lg:justify-end lg:mt-0">
             <button className="button primary">
-              Send <img src="/images/arrow-right.png" alt="Arrow right" />
+              Send <img src="/images/arrow-right.png?webp" alt="Arrow right" />
             </button>
           </div>
         </form>
         <img
           className="w-32 mx-auto my-8"
-          src="/images/eg-logo-color.png"
+          src="/images/eg-logo-color.png?webp"
           alt="EG Music Logo in Blue"
         />
         <p className="font-bold text-center text-white font-mont">

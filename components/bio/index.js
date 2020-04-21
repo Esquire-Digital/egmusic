@@ -4,7 +4,7 @@ export default function Bio() {
       <div className="md:w-1/2">
         <img
           className="object-cover object-center w-full h-full"
-          src="/images/profile-photo.png"
+          src="/images/profile-photo.png?webp"
           alt="Emily standing on the street, holding a guitar with one hand"
         />
       </div>

@@ -6,32 +6,32 @@ export default function Grid() {
     >
       <img
         className="object-cover object-center w-full h-full"
-        src="/images/grid-1.png"
+        src="/images/grid-1.png?webp"
         alt=""
       />
       <img
         className="object-cover object-center w-full h-full"
-        src="/images/grid-2.png"
+        src="/images/grid-2.png?webp"
         alt=""
       />
       <img
         className="object-cover object-center w-full h-full"
-        src="/images/grid-3.png"
+        src="/images/grid-3.png?webp"
         alt=""
       />
       <img
         className="object-cover object-center w-full h-full"
-        src="/images/grid-4.png"
+        src="/images/grid-4.png?webp"
         alt=""
       />
       <img
         className="object-cover object-center w-full h-full"
-        src="/images/grid-5.png"
+        src="/images/grid-5.png?webp"
         alt=""
       />
       <img
         className="object-cover object-center w-full h-full"
-        src="/images/grid-6.png"
+        src="/images/grid-6.png?webp"
         alt=""
       />
       <div className="absolute inset-x-0 bottom-0 flex flex-col items-center justify-center font-bold text-center text-white transform -translate-y-24 lg:translate-y-24 lg:top-1/2 font-mont lg:bottom-auto">

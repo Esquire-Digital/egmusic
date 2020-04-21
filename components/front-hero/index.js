@@ -8,7 +8,7 @@ export default function FrontHero() {
     >
       <img
         className="absolute top-0 left-0 object-cover object-top w-full h-full"
-        src="/images/banner.png"
+        src="/images/banner.png?webp"
         alt="EG Music on stage"
       />
       <div className="absolute bottom-0 z-10 w-full px-8 mb-48 transform -translate-x-1/2 lg:mb-32 left-1/2 lg:px-0 lg:w-auto">
@@ -18,7 +18,7 @@ export default function FrontHero() {
         <div className="absolute inset-x-0 bottom-0 z-10 flex flex-col items-center justify-center transform translate-y-full lg:translate-y-8 lg:flex-row lg:justify-end lg:right-0 lg:translate-x-16 xl:translate-y-4">
           <button className="mb-2 lg:mb-0 lg:mr-4 button primary">
             Sign up for updates
-            <img src="/images/arrow-right.png" alt="Arrow right" />
+            <img src="/images/arrow-right.png?webp" alt="Arrow right" />
           </button>
           <button
             className="button primary"
@@ -27,7 +27,7 @@ export default function FrontHero() {
             }}
           >
             Listen
-            <img src="/images/arrow-right.png" alt="Arrow right" />
+            <img src="/images/arrow-right.png?webp" alt="Arrow right" />
           </button>
         </div>
       </div>
@@ -37,28 +37,28 @@ export default function FrontHero() {
         <a href="https://www.facebook.com/EGmusicNYC/" className="mx-4">
           <img
             className="transform rotate-90"
-            src="/images/facebook-f.png"
+            src="/images/facebook-f.png?webp"
             alt="Facebook icon"
           />
         </a>
         <a href="https://www.instagram.com/egmusicnyc/" className="mx-4">
           <img
             className="transform rotate-90"
-            src="/images/instagram.png"
+            src="/images/instagram.png?webp"
             alt="Instagram icon"
           />
         </a>
         {/* <a href="#" className="mx-2">
           <img
             className="transform rotate-90"
-            src="/images/twitter.png"
+            src="/images/twitter.png?webp"
             alt="Twitter icon"
           />
         </a> */}
         {/* <a href="#" className="mx-2">
           <img
             className="transform rotate-90"
-            src="/images/youtube.png"
+            src="/images/youtube.png?webp"
             alt="Youtube icon"
           />
         </a> */}
