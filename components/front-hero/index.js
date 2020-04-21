@@ -1,4 +1,5 @@
 import gotoLink from "../../utils/goto-link";
+import { Image, Transformation } from "cloudinary-react";
 
 export default function FrontHero() {
   return (
@@ -6,11 +7,12 @@ export default function FrontHero() {
       className="relative w-full h-screen"
       style={{ minHeight: "650px" }}
     >
-      <img
+      <Image
         className="absolute top-0 left-0 object-cover object-top w-full h-full"
-        src="/images/banner.png"
-        alt="EG Music on stage"
-      />
+        publicId="/images/banner.png"
+      >
+        <Transformation format="auto" quality="auto" />
+      </Image>
       <div className="absolute bottom-0 z-10 w-full px-8 mb-48 transform -translate-x-1/2 lg:mb-32 left-1/2 lg:px-0 lg:w-auto">
         <p className="inline-block w-full mb-16 text-6xl leading-none text-center text-gray-600 uppercase whitespace-no-wrap md:text-mega lg:text-mighty xxl:text-massive font-ant lg:mb-0">
           EG Music

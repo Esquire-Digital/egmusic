@@ -1,3 +1,5 @@
+import { Image, Transformation } from "cloudinary-react";
+
 export default function Footer() {
   return (
     <>
@@ -86,11 +88,13 @@ export default function Footer() {
             </button>
           </div>
         </form>
-        <img
+        <Image
           className="w-32 mx-auto my-8"
-          src="/images/eg-logo-color.png"
+          publicId="/images/eg-logo-color.png"
           alt="EG Music Logo in Blue"
-        />
+        >
+          <Transformation format="auto" quality="auto" />
+        </Image>
         <p className="font-bold text-center text-white font-mont">
           &copy; {new Date().getFullYear()} Emily Gabriele. All Rights Reserved.{" "}
           <span>Disclaimer</span>
