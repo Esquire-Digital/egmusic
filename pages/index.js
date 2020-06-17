@@ -12,8 +12,11 @@ import Footer from "../components/footer";
 import BackToTop from "../components/back-to-top";
 
 export async function getStaticProps() {
-  const url =
-    "https://rest.bandsintown.com/artists/Emily%20Gabriele/events?app_id=js_www.artists.bandsintown.com&date=past";
+  const future =
+    "https://rest.bandsintown.com/artists/Emily%20Gabriele/events/?app_id=js_www.artists.bandsintown.com&date=upcoming";
+  const past =
+    "https://rest.bandsintown.com/artists/Emily%20Gabriele/events/?app_id=js_www.artists.bandsintown.com&date=past";
+  const url = future;
   const res = await fetch(url);
   let shows = await res.json();
   shows = shows.slice(0, 9);

@@ -5,14 +5,14 @@
 
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css?family=Anton|Montserrat:400,700&display=swap");
+/* @import url("https://fonts.googleapis.com/css?family=Anton|Montserrat:400,700&display=swap"); */
 
 body {
   @apply antialiased font-mont;
 }
 
 .button {
-  @apply flex flex-row items-center justify-center px-12 py-6 leading-tight tracking-widest text-white uppercase transition duration-300 bg-eg-blue font-ant;
+  @apply flex flex-row items-center justify-center px-12 py-6 leading-tight tracking-widest text-white uppercase transition duration-300 bg-eg-blue font-ant font-normal font-normal;
 }
 
 .button.black {
@@ -24,7 +24,7 @@ body {
 }
 
 .button:hover {
-  @apply bg-blue-900 cursor-pointer;
+  @apply bg-white text-eg-blue cursor-pointer;
 }
 
 .modal {

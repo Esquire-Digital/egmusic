@@ -1,4 +1,6 @@
 import { useMedia } from "react-use";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLongArrowAltRight } from "@fortawesome/free-solid-svg-icons";
 
 export default function Spotify() {
   const isDesktop = useMedia("(min-width: 1024px)", true);
@@ -6,7 +8,7 @@ export default function Spotify() {
   return (
     <>
       <section
-        className="relative flex items-center justify-center bg-gray-900"
+        className="relative flex items-center justify-center bg-eg-spotify"
         style={style}
         id="listen"
       >
@@ -23,11 +25,7 @@ export default function Spotify() {
           rel="noopener noreferrer"
         >
           Listen on spotify
-          <img
-            loading="lazy"
-            src="/images/arrow-right.png?webp"
-            alt="Arrow right"
-          />
+          <FontAwesomeIcon className="ml-4" icon={faLongArrowAltRight} />
         </a>
       </section>
     </>
