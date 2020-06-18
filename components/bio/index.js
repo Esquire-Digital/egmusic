@@ -10,7 +10,7 @@ export default function Bio() {
         />
       </div>
       <div className="flex flex-col justify-center p-8 md:p-12 lg:p-16 xl:px-24 md:w-1/2">
-        <p className="mb-12 text-4xl font-bold leading-none whitespace-no-wrap font-mont text-eg-blue">
+        <p className="mb-12 text-4xl font-bold leading-none lg:whitespace-no-wrap font-mont text-eg-blue">
           Jersey Soul. NYC Blues.
         </p>
         <p className="mb-6 leading-loose">

@@ -2,8 +2,15 @@ import gotoLink from "../../utils/goto-link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLongArrowAltRight } from "@fortawesome/free-solid-svg-icons";
 import { faFacebookF, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { motion } from "framer-motion";
+import { useMedia } from "react-use";
 
 export default function FrontHero() {
+  const isDesktop = useMedia("(min-width: 1024px)", true);
+  const strokeText = isDesktop
+    ? { WebkitTextStrokeWidth: "2px", WebkitTextStrokeColor: "#424b54" }
+    : {};
+
   return (
     <section
       className="relative w-full h-screen"
@@ -16,45 +23,55 @@ export default function FrontHero() {
         alt="EG Music on stage"
       />
       <div className="absolute bottom-0 z-10 w-full px-8 mb-48 transform -translate-x-1/2 left-1/2 lg:px-0 lg:w-auto">
-        <div className="relative inline-block w-full mb-16 text-6xl font-normal leading-none text-center uppercase whitespace-no-wrap md:text-mega lg:text-mighty xl:text-monster xxl:text-massive font-ant lg:mb-0">
-          <span
-            className="text-eg-black"
-            style={{
-              WebkitTextStrokeWidth: "2px",
-              WebkitTextStrokeColor: "#424b54",
-            }}
-          >
-            <p>EG Music</p>
-          </span>
+        <div className="relative inline-block w-full mb-8 text-6xl font-normal leading-none text-center uppercase whitespace-no-wrap md:text-mega lg:text-mighty xl:text-monster xxl:text-massive font-ant lg:mb-0">
+          <div className="text-eg-black" style={strokeText}>
+            <motion.p
+              animate={{ scale: [1, 1.1, 1], opacity: [0, 1] }}
+              transition={{ delay: 0.1 }}
+            >
+              EG Music
+            </motion.p>
+          </div>
           <div
-            className="absolute inset-x-0 w-full text-transparent transform -translate-y-6 top-100"
-            style={{
-              WebkitTextStrokeWidth: "2px",
-              WebkitTextStrokeColor: "#424b54",
-            }}
+            className="absolute inset-x-0 hidden w-full text-transparent transform -translate-y-6 top-100 lg:block"
+            style={strokeText}
           >
-            <span className="relative block h-32 overflow-hidden">
-              <p className="absolute bottom-0">EG Music</p>
+            <span className="relative block h-8 overflow-hidden text-center lg:h-32">
+              <motion.p
+                animate={{ scale: [1, 1.1, 1], opacity: [0, 1] }}
+                transition={{ delay: 0.2 }}
+                className="absolute bottom-0"
+              >
+                EG Music
+              </motion.p>
             </span>
           </div>
           <div
-            className="absolute inset-x-0 w-full text-transparent transform translate-y-full top-80"
-            style={{
-              WebkitTextStrokeWidth: "2px",
-              WebkitTextStrokeColor: "#424b54",
-            }}
+            className="absolute inset-x-0 hidden w-full text-transparent transform translate-y-full top-80 lg:block"
+            style={strokeText}
           >
-            <span className="relative block overflow-hidden h-36">
-              <p className="absolute bottom-0">EG Music</p>
+            <span className="relative block h-12 overflow-hidden text-center lg:h-36">
+              <motion.p
+                animate={{ scale: [1, 1.1, 1], opacity: [0, 1] }}
+                transition={{ delay: 0.3 }}
+                className="absolute bottom-0"
+              >
+                EG Music
+              </motion.p>
             </span>
           </div>
         </div>
         <div className="absolute inset-x-0 bottom-0 z-10 flex flex-col items-center justify-center transform translate-y-full lg:translate-y-8 lg:flex-row lg:justify-end lg:right-0 lg:translate-x-16 xl:translate-y-4">
-          <button className="mb-2 lg:mb-0 lg:mr-4 button primary">
+          <motion.button
+            animate={{ scale: [1, 1.1, 1] }}
+            className="mb-2 lg:mb-0 lg:mr-4 button primary"
+          >
             Sign up for updates
             <FontAwesomeIcon className="ml-4" icon={faLongArrowAltRight} />
-          </button>
-          <button
+          </motion.button>
+          <motion.button
+            animate={{ scale: [1, 1.1, 1] }}
+            transition={{ delay: 0.15 }}
             className="button primary"
             onClick={() => {
               gotoLink("listen");
@@ -62,7 +79,7 @@ export default function FrontHero() {
           >
             Listen
             <FontAwesomeIcon className="ml-4" icon={faLongArrowAltRight} />
-          </button>
+          </motion.button>
         </div>
       </div>
       <div className="absolute right-0 z-10 flex-row items-center hidden mr-8 font-bold text-white uppercase transform -rotate-90 translate-x-1/2 translate-y-1/2 lg:flex top-1/2 font-mont">

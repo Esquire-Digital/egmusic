@@ -14,7 +14,7 @@ export default function Spotify() {
       >
         <img
           loading="lazy"
-          className="absolute bottom-0 left-0 w-80"
+          className="absolute bottom-0 left-0 w-64 lg:w-80"
           src="/images/spotify.png?webp"
           alt="Spotify logo"
         />

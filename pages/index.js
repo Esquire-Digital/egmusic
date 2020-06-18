@@ -1,4 +1,3 @@
-import { useEffectOnce } from "react-use";
 import fetch from "node-fetch";
 
 import Header from "../components/header";
@@ -29,18 +28,6 @@ export async function getStaticProps() {
 }
 
 export default function Home({ shows }) {
-  useEffectOnce(() => {
-    if (window.netlifyIdentity) {
-      window.netlifyIdentity.on("init", (user) => {
-        if (!user) {
-          window.netlifyIdentity.on("login", () => {
-            document.location.href = "/admin/";
-          });
-        }
-      });
-    }
-  });
-
   return (
     <>
       <Header />

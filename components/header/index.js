@@ -20,7 +20,6 @@ export default function Header() {
       <Head>
         <title>EG Music</title>
         <link rel="icon" href="/favicon.ico" />
-        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
       </Head>
       <header className="absolute top-0 left-0 z-50 flex flex-row items-start justify-between w-full p-6">
         <div className="w-1/2">
