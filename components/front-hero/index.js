@@ -7,7 +7,7 @@ export default function FrontHero() {
   return (
     <section
       className="relative w-full h-screen"
-      style={{ minHeight: "650px" }}
+      style={{ minHeight: "750px" }}
     >
       <img
         loading="lazy"
@@ -15,30 +15,36 @@ export default function FrontHero() {
         src="/images/banner.png?webp"
         alt="EG Music on stage"
       />
-      <div className="absolute bottom-0 z-10 w-full px-8 mb-48 transform -translate-x-1/2 lg:mb-32 left-1/2 lg:px-0 lg:w-auto">
-        <div className="relative inline-block w-full mb-16 text-6xl font-normal leading-none text-center uppercase whitespace-no-wrap md:text-mega lg:text-mighty xxl:text-massive font-ant lg:mb-0">
-          <span className="text-eg-black">
-            <p>EG Music</p>
-          </span>
-          <div
-            className="absolute w-full text-transparent top-100"
+      <div className="absolute bottom-0 z-10 w-full px-8 mb-48 transform -translate-x-1/2 left-1/2 lg:px-0 lg:w-auto">
+        <div className="relative inline-block w-full mb-16 text-6xl font-normal leading-none text-center uppercase whitespace-no-wrap md:text-mega lg:text-mighty xl:text-monster xxl:text-massive font-ant lg:mb-0">
+          <span
+            className="text-eg-black"
             style={{
               WebkitTextStrokeWidth: "2px",
               WebkitTextStrokeColor: "#424b54",
             }}
           >
-            <span className="relative block h-24 overflow-hidden">
+            <p>EG Music</p>
+          </span>
+          <div
+            className="absolute inset-x-0 w-full text-transparent transform -translate-y-6 top-100"
+            style={{
+              WebkitTextStrokeWidth: "2px",
+              WebkitTextStrokeColor: "#424b54",
+            }}
+          >
+            <span className="relative block h-32 overflow-hidden">
               <p className="absolute bottom-0">EG Music</p>
             </span>
           </div>
           <div
-            className="absolute w-full text-transparent transform translate-y-1/2 top-100"
+            className="absolute inset-x-0 w-full text-transparent transform translate-y-full top-80"
             style={{
               WebkitTextStrokeWidth: "2px",
               WebkitTextStrokeColor: "#424b54",
             }}
           >
-            <span className="relative block h-24 overflow-hidden">
+            <span className="relative block overflow-hidden h-36">
               <p className="absolute bottom-0">EG Music</p>
             </span>
           </div>
