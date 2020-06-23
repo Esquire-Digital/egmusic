@@ -7,7 +7,7 @@ export default function Custom404() {
   return (
     <>
       <Header />
-      <Spotify />
+      <p>Uh oh... this page doesn't exist!</p>
       <Footer />
       <BackToTop />
     </>

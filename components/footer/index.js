@@ -1,3 +1,5 @@
+import Disclaimer from "../disclaimer";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLongArrowAltRight } from "@fortawesome/free-solid-svg-icons";
 
@@ -90,16 +92,7 @@ export default function Footer() {
             </button>
           </div>
         </form>
-        <img
-          loading="lazy"
-          className="w-32 mx-auto my-8"
-          src="/images/eg-logo-color.png?webp"
-          alt="EG Music Logo in Blue"
-        />
-        <p className="font-bold text-center text-white font-mont">
-          &copy; {new Date().getFullYear()} Emily Gabriele. All Rights Reserved.{" "}
-          <span>Disclaimer</span>
-        </p>
+        <Disclaimer />
       </footer>
     </>
   );

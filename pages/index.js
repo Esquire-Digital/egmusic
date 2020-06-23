@@ -1,5 +1,3 @@
-import fetch from "node-fetch";
-
 import Header from "../components/header";
 import FrontHero from "../components/front-hero";
 import Bio from "../components/bio";
@@ -10,15 +8,10 @@ import UpcomingShows from "../components/upcoming-shows";
 import Footer from "../components/footer";
 import BackToTop from "../components/back-to-top";
 
+import { getShows } from "../utils/get-shows";
+
 export async function getStaticProps() {
-  const future =
-    "https://rest.bandsintown.com/artists/Emily%20Gabriele/events/?app_id=js_www.artists.bandsintown.com&date=upcoming";
-  const past =
-    "https://rest.bandsintown.com/artists/Emily%20Gabriele/events/?app_id=js_www.artists.bandsintown.com&date=past";
-  const url = future;
-  const res = await fetch(url);
-  let shows = await res.json();
-  shows = shows.slice(0, 9);
+  const shows = await getShows();
 
   return {
     props: {

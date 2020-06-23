@@ -2,6 +2,7 @@ import Head from "next/head";
 import gotoLink from "../../utils/goto-link";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
+import Link from "next/link";
 
 export default function Header() {
   const router = useRouter();
@@ -79,12 +80,11 @@ export default function Header() {
           ) : (
             <></>
           )}
-          <a
-            href="/epk/"
-            className="ml-6 font-bold text-white transition duration-300 font-mont hover:text-eg-blue"
-          >
-            EPK
-          </a>
+          <Link href="/epk">
+            <a className="ml-6 font-bold text-white transition duration-300 font-mont hover:text-eg-blue">
+              EPK
+            </a>
+          </Link>
         </ul>
       </header>
     </>
