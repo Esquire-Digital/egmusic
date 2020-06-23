@@ -78,7 +78,13 @@ export default function Header() {
               </button>
             </>
           ) : (
-            <></>
+            <>
+              <Link href="/">
+                <a className="ml-6 font-bold text-white transition duration-300 font-mont hover:text-eg-blue">
+                  Home
+                </a>
+              </Link>
+            </>
           )}
           <Link href="/epk">
             <a className="ml-6 font-bold text-white transition duration-300 font-mont hover:text-eg-blue">

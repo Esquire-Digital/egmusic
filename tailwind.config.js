@@ -14,7 +14,6 @@ module.exports = {
           blue: "#3485a7",
           black: "#424b54",
           contact: "#0d1115",
-          spotify: "#0e1114",
           outline: "#424b54",
         },
       },
