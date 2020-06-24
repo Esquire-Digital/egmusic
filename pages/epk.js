@@ -1,4 +1,6 @@
 import Header from "../components/header";
+import BigBio from "../components/big-bio";
+import MusicPress from "../components/music-press";
 import Downloads from "../components/downloads";
 import FeaturedVideos from "../components/featured-videos";
 import UpcomingShows from "../components/upcoming-shows";
@@ -19,8 +21,10 @@ export async function getStaticProps() {
 
 export default function EPK({ shows }) {
   return (
-    <section className="bg-eg-contact">
+    <section className="bg-black">
       <Header />
+      <BigBio />
+      <MusicPress />
       <Downloads />
       <UpcomingShows shows={shows} />
       <FeaturedVideos />

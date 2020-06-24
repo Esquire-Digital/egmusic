@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 
 export default function DLImage({ src, alt, span }) {
-  const cls = `relative lg:col-span-${span} transform transition duration-300 hover:scale-105`;
+  const cls = `relative transition duration-300 transform hover:scale-105 ${span}`;
 
   return (
     <a className={cls} href={src} download>

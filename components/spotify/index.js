@@ -8,7 +8,7 @@ export default function Spotify() {
   return (
     <>
       <section
-        className="relative flex items-center justify-center bg-eg-spotify"
+        className="relative flex items-center justify-center bg-eg-contact"
         style={style}
         id="listen"
       >

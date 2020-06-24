@@ -12,19 +12,15 @@ body {
 }
 
 .button {
-  @apply flex flex-row items-center justify-center px-12 py-6 leading-tight tracking-widest text-white uppercase transition duration-300 bg-eg-blue font-ant font-normal font-normal;
+  @apply flex flex-row items-center justify-center px-12 py-6 font-normal leading-tight tracking-widest text-center text-white uppercase transition duration-300 bg-eg-blue font-ant;
 }
 
 .button.black {
   @apply bg-eg-black;
 }
 
-.button > img {
-  @apply ml-4;
-}
-
 .button:hover {
-  @apply bg-white text-eg-blue cursor-pointer;
+  @apply bg-white cursor-pointer text-eg-blue;
 }
 
 .modal {
