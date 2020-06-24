@@ -11,7 +11,7 @@ export default function BigBio() {
         <h1 className="mx-auto text-6xl text-center uppercase lg:absolute lg:inset-x-0 lg:top-0 lg:z-10 font-ant md:text-mega lg:text-mighty xl:text-monster xxl:text-massive text-eg-black">
           EG Music
         </h1>
-        <div className="relative flex flex-col p-8 space-y-16 font-bold text-white lg:p-16 lg:w-1/2 font-mont">
+        <div className="relative flex flex-col p-8 space-y-16 font-bold text-white lg:p-16 lg:w-1/2 font-mont bg-eg-epk-1">
           <div className="flex flex-col space-y-4">
             <p className="mb-8 text-4xl uppercase text-eg-blue">Bio</p>
             <p>
@@ -49,7 +49,7 @@ export default function BigBio() {
             </p>
           </div>
         </div>
-        <div className="relative lg:w-1/2">
+        <div className="relative lg:w-1/2 ">
           <img
             className="object-cover w-full h-full"
             src="/images/bio-1.png?webp?"

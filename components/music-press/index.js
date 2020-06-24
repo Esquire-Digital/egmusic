@@ -17,7 +17,7 @@ export default function MusicPress() {
           className="mt-8"
         ></iframe>
       </div>
-      <div className="flex flex-col items-center p-12 lg:p-24 lg:w-1/2 lg:items-start">
+      <div className="flex flex-col items-center p-12 lg:p-24 lg:w-1/2 lg:items-start bg-eg-epk-2">
         <p className="text-2xl font-bold uppercase font-mont text-eg-blue">
           Press
         </p>

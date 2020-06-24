@@ -17,6 +17,8 @@ module.exports = {
           black: "#424b54",
           contact: "#0d1115",
           outline: "#424b54",
+          "epk-1": "#16181a",
+          "epk-2": "#0c0c0d",
         },
       },
       fontSize: {
