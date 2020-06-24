@@ -3,6 +3,7 @@ export default function Grid() {
     <section
       className="relative grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
       id="follow"
+      style={{ minHeight: "650px " }}
     >
       <img
         className="object-cover object-center w-full h-full"

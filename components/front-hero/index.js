@@ -26,7 +26,7 @@ export default function FrontHero() {
         <div className="relative inline-block w-full mb-8 text-6xl font-normal leading-none text-center uppercase whitespace-no-wrap md:text-mega lg:text-mighty xl:text-monster xxl:text-massive font-ant lg:mb-0">
           <div className="text-eg-black" style={strokeText}>
             <motion.p
-              animate={{ scale: [1, 1.1, 1], opacity: [0, 1] }}
+              animate={{ scale: [1, 1.1, 1], opacity: [0, 1, 0.25] }}
               transition={{ delay: 0.1 }}
             >
               EG Music
@@ -38,7 +38,7 @@ export default function FrontHero() {
           >
             <span className="relative block h-8 overflow-hidden text-center lg:h-32">
               <motion.p
-                animate={{ scale: [1, 1.1, 1], opacity: [0, 1] }}
+                animate={{ scale: [1, 1.1, 1], opacity: [0, 1, 0.25] }}
                 transition={{ delay: 0.2 }}
                 className="absolute bottom-0"
               >
@@ -52,7 +52,7 @@ export default function FrontHero() {
           >
             <span className="relative block h-12 overflow-hidden text-center lg:h-36">
               <motion.p
-                animate={{ scale: [1, 1.1, 1], opacity: [0, 1] }}
+                animate={{ scale: [1, 1.1, 1], opacity: [0, 1, 0.25] }}
                 transition={{ delay: 0.3 }}
                 className="absolute bottom-0"
               >
