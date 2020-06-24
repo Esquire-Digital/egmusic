@@ -13,7 +13,7 @@ export default function UpcomingShows({ shows }) {
           <>
             {shows.map((show) => (
               <div
-                className="flex flex-col items-center bg-gray-800 lg:flex-row"
+                className="flex flex-col items-center bg-eg-contact lg:flex-row"
                 key={show.id}
               >
                 <div className="flex flex-col items-center p-8 border-b-2 border-gray-900 lg:border-r-2 lg:px-32 lg:py-16">
