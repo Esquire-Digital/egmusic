@@ -38,7 +38,7 @@ export default function FrontHero() {
           >
             <span className="relative block h-8 overflow-hidden text-center lg:h-32">
               <motion.p
-                animate={{ scale: [1, 1.1, 1], opacity: [0, 1, 0.25] }}
+                animate={{ scale: [1, 1.1, 1], opacity: [0, 1, 0.5] }}
                 transition={{ delay: 0.2 }}
                 className="absolute bottom-0"
               >
