@@ -26,7 +26,7 @@ export default function FrontHero() {
         <div className="relative inline-block w-full mb-8 text-6xl font-normal leading-none text-center uppercase whitespace-no-wrap md:text-mega lg:text-mighty xl:text-monster xxl:text-massive font-ant lg:mb-0">
           <div className="text-eg-black" style={strokeText}>
             <motion.p
-              animate={{ scale: [1, 1.1, 1], opacity: [0, 1, 0.25] }}
+              animate={{ scale: [1, 1.1, 1], opacity: [0, 1] }}
               transition={{ delay: 0.1 }}
             >
               EG Music
