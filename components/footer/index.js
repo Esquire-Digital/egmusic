@@ -85,7 +85,7 @@ export default function Footer() {
               Message *
             </label>
           </div>
-          <div className="flex justify-center mt-8 lg:justify-end lg:mt-0">
+          <div className="flex justify-center h-16 mt-8 lg:justify-end lg:mt-0">
             <button className="button primary">
               Send{" "}
               <FontAwesomeIcon className="ml-4" icon={faLongArrowAltRight} />

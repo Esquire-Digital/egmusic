@@ -5,7 +5,7 @@ export default function Grid() {
     <section
       className="relative grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
       id="follow"
-      style={{ minHeight: "650px", maxWidth: "100vw", overflow: "hidden" }}
+      style={{ minHeight: "650px", maxWidth: "100vw", overflowX: "hidden" }}
     >
       <GridImage image="1" alt="" />
       <GridImage image="2" alt="" />
