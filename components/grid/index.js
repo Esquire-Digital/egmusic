@@ -4,8 +4,8 @@ import { useMedia } from "react-use";
 export default function Grid() {
   const isDesktop = useMedia("(min-width: 1024px)", true);
   const style = isDesktop
-  ? { minHeight: "650px", maxWidth: "100vw" };
-  : { minHeight: "650px", maxWidth: "100vw", overflowX: "hidden" }
+    ? { minHeight: "650px", maxWidth: "100vw" }
+    : { minHeight: "650px", maxWidth: "100vw", overflowX: "hidden" };
   return (
     <section
       className="relative grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
