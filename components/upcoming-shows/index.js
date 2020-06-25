@@ -52,7 +52,7 @@ export default function UpcomingShows({ shows }) {
             ))}
           </>
         ) : (
-          <div className="flex flex-col items-center bg-gray-800 lg:flex-row">
+          <div className="flex flex-col items-center bg-eg-shows lg:flex-row">
             <div className="flex flex-col items-center p-8 border-b-2 border-gray-900 lg:border-r-2 lg:px-32 lg:py-16">
               <p className="my-1 text-6xl font-normal leading-none text-white uppercase font-ant">
                 TBD
