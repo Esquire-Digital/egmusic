@@ -9,12 +9,12 @@ export default function DLImage({ src, alt, span, image }) {
     <a className={cls} href={src} download>
       <LazyLoadImage
         className="object-cover w-full h-full"
-        src={require(`../../public/images/dl-${image}.png?lqip?webp`)}
+        src={require(`../../public/images/dl-${image}.png`)}
         alt={alt}
       />
       {/* <img
         className="object-cover w-full h-full"
-        src={require(`../../public/images/dl-${image}.png?lqip?webp`)}
+        src={require(`../../public/images/dl-${image}.png`)}
         alt={alt}
       /> */}
       <FontAwesomeIcon

@@ -27,12 +27,12 @@ export default function Header() {
         <div className="w-1/2">
           <a href="/">
             <LazyLoadImage
-              src={require("../../public/images/eg-logo.png?lqip?webp")}
+              src={require("../../public/images/eg-logo.png")}
               alt="EG Music Logo"
               className="w-16 lg:w-24"
             />
             {/* <img
-              src={require("../../public/images/eg-logo.png?lqip?webp")}
+              src={require("../../public/images/eg-logo.png")}
               alt="EG Music Logo"
               className="w-16 lg:w-24"
             /> */}

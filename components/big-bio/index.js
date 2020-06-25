@@ -53,12 +53,12 @@ export default function BigBio() {
         <div className="relative lg:w-1/2 ">
           <LazyLoadImage
             className="object-cover w-full h-full"
-            src={require("../../public/images/bio-1.png?lqip?webp?")}
+            src={require("../../public/images/bio-1.png")}
             alt=""
           />
           {/* <img
             className="object-cover w-full h-full"
-            src={require("../../public/images/bio-1.png?lqip?webp?")}
+            src={require("../../public/images/bio-1.png")}
             alt=""
           /> */}
           <div className="absolute inset-x-0 bottom-0 flex flex-col items-center justify-center space-y-4 transform -translate-y-4 lg:space-y-0 lg:space-x-4 lg:flex-row lg:translate-y-1/2">

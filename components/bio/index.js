@@ -6,12 +6,12 @@ export default function Bio() {
       <div className="md:w-1/2">
         <LazyLoadImage
           className="object-cover object-center w-full h-full"
-          src={require("../../public/images/profile-photo.png?lqip?webp")}
+          src={require("../../public/images/profile-photo.png")}
           alt="Emily standing on the street, holding a guitar with one hand"
         />
         {/* <img
           className="object-cover object-center w-full h-full"
-          src={require("../../public/images/profile-photo.png?lqip?webp")}
+          src={require("../../public/images/profile-photo.png")}
           alt="Emily standing on the street, holding a guitar with one hand"
         /> */}
       </div>

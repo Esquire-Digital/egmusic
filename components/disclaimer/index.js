@@ -5,12 +5,12 @@ export default function Disclaimer() {
     <>
       <LazyLoadImage
         className="w-32 mx-auto my-8"
-        src={require("../../public/images/eg-logo-color.png?lqip?webp")}
+        src={require("../../public/images/eg-logo-color.png")}
         alt="EG Music Logo in Blue"
       />
       {/* <img
         className="w-32 mx-auto my-8"
-        src={require("../../public/images/eg-logo-color.png?lqip?webp")}
+        src={require("../../public/images/eg-logo-color.png")}
         alt="EG Music Logo in Blue"
       /> */}
       <p className="font-bold text-center text-white font-mont">
