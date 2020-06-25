@@ -26,7 +26,7 @@ export default function Footer() {
           name="Contact Form"
           method="POST"
           data-netlify="true"
-          className="my-8 lg:grid lg:grid-rows-3 lg:gap-16 lg:my-24"
+          className="gap-16 my-8 lg:grid lg:grid-rows-3 lg:gap-4 lg:my-24"
         >
           <input type="hidden" name="Fax" />
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
@@ -75,7 +75,7 @@ export default function Footer() {
           <div>
             <textarea
               name="Message"
-              className="block w-full h-32 font-bold text-white bg-transparent border-b-2 rounded-none border-eg-outline lg:h-auto font-mont"
+              className="block w-full h-32 font-bold text-white bg-transparent border-b-2 rounded-none border-eg-outline font-mont"
             ></textarea>
             <label
               htmlFor="Message"
