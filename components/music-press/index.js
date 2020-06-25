@@ -8,7 +8,7 @@ export default function MusicPress() {
           Music
         </p>
         <iframe
-          src="https://open.spotify.com/embed/album/5Ppj3blRPtgQYChP6JxDBw"
+          src="https://open.spotify.com/embed/track/44g7LTTM8dSw2Zb7fnv6DI"
           width="300"
           height="80"
           frameborder="0"
@@ -22,8 +22,14 @@ export default function MusicPress() {
           Press
         </p>
         <ul className="flex flex-col my-8 space-y-4">
-          <Press text="Interview With Vents Magazine" link="" />
-          <Press text="“Monday” Exclusive With Buzz Music" link="" />
+          <Press
+            text="Interview With Vents Magazine"
+            link="https://ventsmagazine.com/2020/04/10/interview-emily-gabriele/"
+          />
+          <Press
+            text="“Monday” Exclusive With Buzz Music"
+            link="https://www.buzz-music.com/post/exclusive-interview-emily-gabriele-dives-deep-into-her-latest-release-monday"
+          />
         </ul>
       </div>
     </section>
