@@ -23,7 +23,7 @@ export default function FeaturedVideos() {
             <img
               loading="lazy"
               className="relative z-10 object-cover object-center w-full h-full"
-              src="/images/thumb-1.png?webp"
+              src={require("../../public/images/thumb-1.png?lqip?webp")}
               alt=""
             />
             <div className="absolute bottom-0 left-0 w-full h-full transform -translate-x-6 translate-y-6 bg-eg-blue"></div>
@@ -31,7 +31,7 @@ export default function FeaturedVideos() {
           <button
             className="z-10 mt-12 mr-6 button primary"
             onClick={() => {
-              openModal("https://vimeo.com/342333493");
+              openModal("https://www.youtube.com/watch?v=7LRUPl_dfjQ");
             }}
           >
             watch
@@ -42,7 +42,7 @@ export default function FeaturedVideos() {
             <img
               loading="lazy"
               className="relative z-10 object-cover object-center w-full h-full"
-              src="/images/thumb-2.png?webp"
+              src={require("../../public/images/thumb-2.png?lqip?webp")}
               alt=""
             />
             <div className="absolute bottom-0 left-0 w-full h-full transform -translate-x-6 translate-y-6 bg-eg-blue"></div>
@@ -50,7 +50,7 @@ export default function FeaturedVideos() {
           <button
             className="z-10 mt-12 mr-6 button primary"
             onClick={() => {
-              openModal("https://vimeo.com/235746460");
+              openModal("https://www.youtube.com/watch?v=J6Z_2pW27qA");
             }}
           >
             watch

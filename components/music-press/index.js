@@ -10,7 +10,7 @@ export default function MusicPress() {
         <iframe
           src="https://open.spotify.com/embed/album/5Ppj3blRPtgQYChP6JxDBw"
           width="300"
-          height="330"
+          height="80"
           frameborder="0"
           allowtransparency="true"
           allow="encrypted-media"

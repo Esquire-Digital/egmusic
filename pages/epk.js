@@ -21,7 +21,7 @@ export async function getStaticProps() {
 
 export default function EPK({ shows }) {
   return (
-    <section className="bg-black">
+    <section className="bg-eg-epk-1">
       <Header />
       <BigBio />
       <MusicPress />

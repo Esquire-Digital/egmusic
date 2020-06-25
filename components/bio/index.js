@@ -5,7 +5,7 @@ export default function Bio() {
         <img
           loading="lazy"
           className="object-cover object-center w-full h-full"
-          src="/images/profile-photo.png?webp"
+          src={require("../../public/images/profile-photo.png?lqip?webp")}
           alt="Emily standing on the street, holding a guitar with one hand"
         />
       </div>

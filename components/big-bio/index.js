@@ -7,11 +7,11 @@ export default function BigBio() {
 
   return (
     <>
-      <section className="relative z-10 flex flex-col items-start pt-32 lg:pt-48 lg:flex-row">
+      <section className="relative z-10 flex flex-col items-start pt-32 lg:pt-48 lg:flex-row bg-eg-epk-1">
         <h1 className="mx-auto text-6xl text-center uppercase lg:absolute lg:inset-x-0 lg:top-0 lg:z-10 font-ant md:text-mega lg:text-mighty xl:text-monster xxl:text-massive text-eg-black">
           EG Music
         </h1>
-        <div className="relative flex flex-col p-8 space-y-16 font-bold text-white lg:p-16 lg:w-1/2 font-mont bg-eg-epk-1">
+        <div className="relative flex flex-col p-8 space-y-16 font-bold text-white lg:p-16 lg:w-1/2 font-mont">
           <div className="flex flex-col space-y-4">
             <p className="mb-8 text-4xl uppercase text-eg-blue">Bio</p>
             <p>
@@ -52,11 +52,15 @@ export default function BigBio() {
         <div className="relative lg:w-1/2 ">
           <img
             className="object-cover w-full h-full"
-            src="/images/bio-1.png?webp?"
+            src={require("../../public/images/bio-1.png?lqip?webp?")}
             alt=""
           />
           <div className="absolute inset-x-0 bottom-0 flex flex-col items-center justify-center space-y-4 transform -translate-y-4 lg:space-y-0 lg:space-x-4 lg:flex-row lg:translate-y-1/2">
-            <a className="button primary">
+            <a
+              className="button primary"
+              download
+              href="/pdfs/eg-music-bio.pdf"
+            >
               Download Full Bio
               {isDesktop ? (
                 <FontAwesomeIcon className="ml-4" icon={faLongArrowAltRight} />
@@ -64,7 +68,11 @@ export default function BigBio() {
                 <></>
               )}
             </a>
-            <a className="button primary">
+            <a
+              className="button primary"
+              download
+              href="/pdfs/eg-music-logo.pdf"
+            >
               Download Logo
               {isDesktop ? (
                 <FontAwesomeIcon className="ml-4" icon={faLongArrowAltRight} />

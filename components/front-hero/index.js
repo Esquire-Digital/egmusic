@@ -19,8 +19,10 @@ export default function FrontHero() {
       <img
         loading="lazy"
         className="absolute top-0 left-0 object-cover object-top w-full h-full"
-        src="/images/banner.png?webp"
+        src={require("../../public/images/banner-v2.png?lqip?webp")}
         alt="EG Music on stage"
+        width="100%"
+        height="750px"
       />
       <div className="absolute bottom-0 z-10 w-full px-8 mb-48 transform -translate-x-1/2 left-1/2 lg:px-0 lg:w-auto">
         <div className="relative inline-block w-full mb-8 text-6xl font-normal leading-none text-center uppercase whitespace-no-wrap md:text-mega lg:text-mighty xl:text-monster xxl:text-massive font-ant lg:mb-0">
@@ -87,40 +89,30 @@ export default function FrontHero() {
           Follow
         </span>
         <div className="block w-16 mx-4 bg-white h-2px"></div>
-        <a href="https://www.facebook.com/EGmusicNYC/" className="mx-4">
+        <a
+          href="https://www.facebook.com/EGmusicNYC/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mx-4"
+        >
           <FontAwesomeIcon
             className="transition duration-300 transform rotate-90 hover:text-eg-blue"
             size="lg"
             icon={faFacebookF}
           />
         </a>
-        <a href="https://www.instagram.com/egmusicnyc/" className="mx-4">
+        <a
+          href="https://www.instagram.com/egmusicnyc/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mx-4"
+        >
           <FontAwesomeIcon
             className="transition duration-300 transform rotate-90 hover:text-eg-blue"
             size="lg"
             icon={faInstagram}
           />
-          {/* <img
-            loading="lazy"
-            className="transform rotate-90"
-            src="/images/instagram.png?webp"
-            alt="Instagram icon"
-          /> */}
         </a>
-        {/* <a href="#" className="mx-2">
-          <img loading="lazy"
-            className="transform rotate-90"
-            src="/images/twitter.png?webp"
-            alt="Twitter icon"
-          />
-        </a> */}
-        {/* <a href="#" className="mx-2">
-          <img loading="lazy"
-            className="transform rotate-90"
-            src="/images/youtube.png?webp"
-            alt="Youtube icon"
-          />
-        </a> */}
       </div>
     </section>
   );

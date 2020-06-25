@@ -1,3 +1,5 @@
+import GridImage from "./image";
+
 export default function Grid() {
   return (
     <section
@@ -5,48 +7,24 @@ export default function Grid() {
       id="follow"
       style={{ minHeight: "650px " }}
     >
-      <img
-        className="object-cover object-center w-full h-full"
-        src="/images/grid-1.png?webp"
-        alt=""
-      />
-      <img
-        className="object-cover object-center w-full h-full"
-        src="/images/grid-2.png?webp"
-        alt=""
-      />
-      <img
-        className="object-cover object-center w-full h-full"
-        src="/images/grid-3.png?webp"
-        alt=""
-      />
-      <img
-        className="object-cover object-center w-full h-full"
-        src="/images/grid-4.png?webp"
-        alt=""
-      />
-      <img
-        className="object-cover object-center w-full h-full"
-        src="/images/grid-5.png?webp"
-        alt=""
-      />
-      <img
-        className="object-cover object-center w-full h-full"
-        src="/images/grid-6.png?webp"
-        alt=""
-      />
-      <div className="absolute inset-x-0 bottom-0 flex flex-col items-center justify-center font-bold text-center text-white transform -translate-y-24 lg:translate-y-24 lg:top-1/2 font-mont lg:bottom-auto">
-        <p>egmusicnyc</p>
-        <div className="flex flex-row items-center">
-          <p className="text-xs md:text-base">2.2K Followers</p>
-          <span className="mx-2 text-eg-blue">|</span>
-          <p className="text-xs md:text-base">2.2K Following</p>
-          <span className="mx-2 text-eg-blue">|</span>
-          <p className="text-xs md:text-base">231 Posts</p>
-        </div>
+      <GridImage image="1" alt="" />
+      <GridImage image="2" alt="" />
+      <GridImage image="3" alt="" />
+      <GridImage image="4" alt="" />
+      <GridImage image="5" alt="" />
+      <GridImage image="6" alt="" />
+      <div className="absolute inset-0 flex flex-col items-center justify-center text-2xl font-bold text-center text-white transform pointer-events-none -translate-y-3px font-mont">
+        <a
+          href="https://www.instagram.com/egmusicnyc/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="pointer-events-auto"
+        >
+          @egmusicnyc
+        </a>
       </div>
       <p
-        className="absolute inset-x-0 bottom-0 z-10 text-6xl font-normal leading-none text-center text-transparent uppercase transform translate-y-4 opacity-25 md:text-mighty md:translate-y-24 lg:text-massive font-ant"
+        className="absolute inset-x-0 bottom-0 z-10 text-6xl font-normal leading-none text-center text-transparent uppercase transform translate-y-4 opacity-25 pointer-events-none md:text-mighty md:translate-y-24 lg:text-massive font-ant"
         style={{
           WebkitTextStrokeWidth: "2px",
           WebkitTextStrokeColor: "#424b54",

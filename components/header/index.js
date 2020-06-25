@@ -27,7 +27,7 @@ export default function Header() {
           <a href="/">
             <img
               loading="lazy"
-              src="/images/eg-logo.png?webp"
+              src={require("../../public/images/eg-logo.png?lqip?webp")}
               alt="EG Music Logo"
               className="w-16 lg:w-24"
             />

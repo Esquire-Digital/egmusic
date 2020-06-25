@@ -7,6 +7,7 @@ module.exports = {
       spacing: {
         px: "1px",
         "2px": "2px",
+        "3px": "3px",
         "36": "9rem",
         "72": "18rem",
         "80": "20rem",
@@ -16,6 +17,7 @@ module.exports = {
           blue: "#3485a7",
           black: "#424b54",
           contact: "#0d1115",
+          shows: "#0e1115",
           outline: "#424b54",
           "epk-1": "#16181a",
           "epk-2": "#0c0c0d",
@@ -56,6 +58,9 @@ module.exports = {
         xl: "1280px",
         xxl: "1440px",
       },
+    },
+    variants: {
+      opacity: ["group-hover"],
     },
   },
 };

@@ -12,7 +12,7 @@ export default function Press({ text, link }) {
       >
         <p>{text}</p>
         <span className="flex items-center space-x-2 font-bold uppercase font-ant">
-          <p>Read</p>
+          <p className="tracking-widest">Read</p>
           <FontAwesomeIcon icon={faLongArrowAltRight} />
         </span>
       </a>
