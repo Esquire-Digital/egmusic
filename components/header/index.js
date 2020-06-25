@@ -3,6 +3,7 @@ import gotoLink from "../../utils/goto-link";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function Header() {
   const router = useRouter();
@@ -25,12 +26,16 @@ export default function Header() {
       <header className="absolute top-0 left-0 z-50 flex flex-row items-start justify-between w-full p-6">
         <div className="w-1/2">
           <a href="/">
-            <img
-              loading="lazy"
+            <LazyLoadImage
               src={require("../../public/images/eg-logo.png?lqip?webp")}
               alt="EG Music Logo"
               className="w-16 lg:w-24"
             />
+            {/* <img
+              src={require("../../public/images/eg-logo.png?lqip?webp")}
+              alt="EG Music Logo"
+              className="w-16 lg:w-24"
+            /> */}
           </a>
         </div>
         <ul className="flex flex-row items-center justify-end w-1/2 ">

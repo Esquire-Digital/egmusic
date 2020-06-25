@@ -4,6 +4,7 @@ import { faLongArrowAltRight } from "@fortawesome/free-solid-svg-icons";
 import { faFacebookF, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { motion } from "framer-motion";
 import { useMedia } from "react-use";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function FrontHero() {
   const isDesktop = useMedia("(min-width: 1024px)", true);
@@ -16,14 +17,20 @@ export default function FrontHero() {
       className="relative w-full h-screen"
       style={{ minHeight: "750px" }}
     >
-      <img
-        loading="lazy"
+      <LazyLoadImage
         className="absolute top-0 left-0 object-cover object-top w-full h-full"
         src={require("../../public/images/banner-v2.png?lqip?webp")}
         alt="EG Music on stage"
         width="100%"
         height="750px"
       />
+      {/* <img
+        className="absolute top-0 left-0 object-cover object-top w-full h-full"
+        src={require("../../public/images/banner-v2.png?lqip?webp")}
+        alt="EG Music on stage"
+        width="100%"
+        height="750px"
+      /> */}
       <div className="absolute bottom-0 z-10 w-full px-8 mb-48 transform -translate-x-1/2 left-1/2 lg:px-0 lg:w-auto">
         <div className="relative inline-block w-full mb-8 text-6xl font-normal leading-none text-center uppercase whitespace-no-wrap md:text-mega lg:text-mighty xl:text-monster xxl:text-massive font-ant lg:mb-0">
           <div className="text-eg-black" style={strokeText}>

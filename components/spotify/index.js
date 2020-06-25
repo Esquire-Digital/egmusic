@@ -1,6 +1,7 @@
 import { useMedia } from "react-use";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLongArrowAltRight } from "@fortawesome/free-solid-svg-icons";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function Spotify() {
   const isDesktop = useMedia("(min-width: 1024px)", true);
@@ -12,12 +13,16 @@ export default function Spotify() {
         style={style}
         id="listen"
       >
-        <img
-          loading="lazy"
+        <LazyLoadImage
           className="absolute bottom-0 left-0 w-64 lg:w-80"
           src={require("../../public/images/spotify.png?lqip?webp")}
           alt="Spotify logo"
         />
+        {/* <img
+          className="absolute bottom-0 left-0 w-64 lg:w-80"
+          src={require("../../public/images/spotify.png?lqip?webp")}
+          alt="Spotify logo"
+        /> */}
         <a
           className="z-10 button primary"
           href="https://open.spotify.com/artist/3YnfMfDE98v0SCqXsL4ICA?si=Ravp28prSSeWyOhcheV_wg"
