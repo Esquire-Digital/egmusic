@@ -32,7 +32,7 @@ export default function FrontHero() {
         height="750px"
       /> */}
       <div className="absolute bottom-0 z-10 w-full px-8 mb-48 transform -translate-x-1/2 left-1/2 lg:px-0 lg:w-auto">
-        <div className="relative inline-block w-full mb-8 text-6xl font-normal leading-none text-center uppercase whitespace-no-wrap md:text-mega lg:text-mighty font-ant lg:mb-0">
+        <div className="relative inline-block w-full mb-8 text-6xl font-normal leading-none text-center uppercase whitespace-no-wrap lg:text-mega font-ant lg:mb-0">
           <div className="text-eg-black" style={strokeText}>
             <motion.p
               animate={{ scale: [1, 1.1, 1], opacity: [0, 1] }}
@@ -71,13 +71,13 @@ export default function FrontHero() {
           </div>
         </div>
         <div className="absolute inset-x-0 bottom-0 z-10 flex flex-col items-center justify-center transform translate-y-full lg:translate-y-8 lg:flex-row lg:justify-end lg:right-0 lg:translate-x-16 xl:translate-y-4">
-          <motion.button
+          {/* <motion.button
             animate={{ scale: [1, 1.1, 1] }}
             className="mb-2 lg:mb-0 lg:mr-4 button primary"
           >
             Sign up for updates
             <FontAwesomeIcon className="ml-4" icon={faLongArrowAltRight} />
-          </motion.button>
+          </motion.button> */}
           <motion.button
             animate={{ scale: [1, 1.1, 1] }}
             transition={{ delay: 0.15 }}

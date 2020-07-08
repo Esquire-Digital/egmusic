@@ -23,9 +23,7 @@ export default function Bio() {
         <p className="mb-12 text-4xl font-bold leading-none lg:whitespace-no-wrap font-mont text-eg-blue">
           {title}
         </p>
-        <p className="mb-6 leading-loose">
-          <BioContent />
-        </p>
+        <BioContent className="flex flex-col space-y-6 leading-loose" />
       </div>
     </section>
   );
