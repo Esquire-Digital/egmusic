@@ -75,5 +75,5 @@ body {
 }
 
 .frontmatter-markdown p:last-of-type {
-  @apply mb-0;
+  @apply;
 }
