@@ -1,11 +1,6 @@
-/* purgecss start ignore */
 @tailwind base;
 @tailwind components;
-/* purgecss end ignore */
-
 @tailwind utilities;
-
-/* @import url("https://fonts.googleapis.com/css?family=Anton|Montserrat:400,700&display=swap"); */
 
 body {
   @apply antialiased font-mont;
@@ -67,13 +62,13 @@ body {
 }
 
 .frontmatter-markdown {
-  @apply leading-loose;
+  line-height: 2;
 }
 
 .frontmatter-markdown p {
-  @apply mb-6;
+  margin-bottom: 1.5rem;
 }
 
 .frontmatter-markdown p:last-of-type {
-  @apply;
+  margin-bottom: 0;
 }
