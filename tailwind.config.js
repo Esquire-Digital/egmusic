@@ -24,6 +24,7 @@ module.exports = {
         },
       },
       fontSize: {
+        '12vw': '12vw',
         mega: "8rem",
         mighty: "10rem",
         monster: "12rem",
