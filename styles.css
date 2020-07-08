@@ -60,18 +60,3 @@ body {
     transform: rotate(360deg);
   }
 }
-
-/* purgecss start ignore */
-
-.frontmatter-markdown {
-  line-height: 2;
-}
-
-.frontmatter-markdown p {
-  margin-bottom: 1.5rem;
-}
-
-.frontmatter-markdown p:last-of-type {
-  margin-bottom: 0;
-}
-/* purgecss end ignore */

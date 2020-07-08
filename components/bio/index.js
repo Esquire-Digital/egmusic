@@ -23,6 +23,19 @@ export default function Bio() {
         <p className="mb-12 text-4xl font-bold leading-none lg:whitespace-no-wrap font-mont text-eg-blue">
           {title}
         </p>
+        <style global jsx>{`
+        .frontmatter-markdown {
+          line-height: 2;
+        }
+
+        .frontmatter-markdown p {
+          margin-bottom: 1.5rem;
+        }
+
+        .frontmatter-markdown p:last-of-type {
+          margin-bottom: 0;
+        }
+      `}</style>
         <BioContent />
       </div>
     </section>
