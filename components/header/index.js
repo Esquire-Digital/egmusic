@@ -20,7 +20,7 @@ export default function Header() {
   return (
     <>
       <Head>
-        <title>EG Music</title>
+        <title>Emily Gabriele</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <header className="absolute top-0 left-0 z-50 flex flex-row items-start justify-between w-full p-6">
@@ -83,14 +83,14 @@ export default function Header() {
               </button>
             </>
           ) : (
-            <>
-              <Link href="/">
-                <a className="ml-6 font-bold text-white transition duration-300 font-mont hover:text-eg-blue">
-                  Home
+              <>
+                <Link href="/">
+                  <a className="ml-6 font-bold text-white transition duration-300 font-mont hover:text-eg-blue">
+                    Home
                 </a>
-              </Link>
-            </>
-          )}
+                </Link>
+              </>
+            )}
           <Link href="/epk">
             <a className="ml-6 font-bold text-white transition duration-300 font-mont hover:text-eg-blue">
               EPK

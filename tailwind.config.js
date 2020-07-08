@@ -25,9 +25,9 @@ module.exports = {
       },
       fontSize: {
         mega: "8rem",
-        mighty: "12rem",
-        monster: "14rem",
-        massive: "16rem",
+        mighty: "10rem",
+        monster: "12rem",
+        massive: "14rem",
       },
       fontFamily: {
         mont: ["Montserrat", "sans-serif"],

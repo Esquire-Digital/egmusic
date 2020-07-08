@@ -10,7 +10,7 @@ export default function BigBio() {
     <>
       <section className="relative z-10 flex flex-col items-start pt-32 lg:pt-48 lg:flex-row bg-eg-epk-1">
         <h1 className="mx-auto text-6xl text-center uppercase lg:absolute lg:inset-x-0 lg:top-0 lg:z-10 font-ant md:text-mega lg:text-mighty xl:text-monster xxl:text-massive text-eg-black">
-          EG Music
+          Emily Gabriele
         </h1>
         <div className="relative flex flex-col p-8 space-y-16 font-bold text-white lg:p-16 lg:w-1/2 font-mont">
           <div className="flex flex-col space-y-4">
@@ -71,8 +71,8 @@ export default function BigBio() {
               {isDesktop ? (
                 <FontAwesomeIcon className="ml-4" icon={faLongArrowAltRight} />
               ) : (
-                <></>
-              )}
+                  <></>
+                )}
             </a>
             <a
               className="button primary"
@@ -83,8 +83,8 @@ export default function BigBio() {
               {isDesktop ? (
                 <FontAwesomeIcon className="ml-4" icon={faLongArrowAltRight} />
               ) : (
-                <></>
-              )}
+                  <></>
+                )}
             </a>
           </div>
         </div>

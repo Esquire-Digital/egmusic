@@ -32,13 +32,13 @@ export default function FrontHero() {
         height="750px"
       /> */}
       <div className="absolute bottom-0 z-10 w-full px-8 mb-48 transform -translate-x-1/2 left-1/2 lg:px-0 lg:w-auto">
-        <div className="relative inline-block w-full mb-8 text-6xl font-normal leading-none text-center uppercase whitespace-no-wrap md:text-mega lg:text-mighty xl:text-monster xxl:text-massive font-ant lg:mb-0">
+        <div className="relative inline-block w-full mb-8 text-6xl font-normal leading-none text-center uppercase whitespace-no-wrap md:text-mega lg:text-mighty font-ant lg:mb-0">
           <div className="text-eg-black" style={strokeText}>
             <motion.p
               animate={{ scale: [1, 1.1, 1], opacity: [0, 1] }}
               transition={{ delay: 0.1 }}
             >
-              EG Music
+              Emily Gabriele
             </motion.p>
           </div>
           <div
@@ -51,7 +51,7 @@ export default function FrontHero() {
                 transition={{ delay: 0.2 }}
                 className="absolute bottom-0"
               >
-                EG Music
+                Emily Gabriele
               </motion.p>
             </span>
           </div>
@@ -65,7 +65,7 @@ export default function FrontHero() {
                 transition={{ delay: 0.3 }}
                 className="absolute bottom-0"
               >
-                EG Music
+                Emily Gabriele
               </motion.p>
             </span>
           </div>
