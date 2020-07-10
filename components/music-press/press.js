@@ -8,7 +8,7 @@ export default function Press({ text, link }) {
         href={link}
         target="_blank"
         rel="norefferer noopener"
-        className="flex space-x-4 text-white transition duration-300 hover:text-eg-blue"
+        className="flex flex-col items-start space-y-2 text-white transition duration-300 md:space-x-4 md:space-y-0 md:flex-row md:items-center hover:text-eg-blue"
       >
         <p>{text}</p>
         <span className="flex items-center space-x-2 font-bold uppercase font-ant">
