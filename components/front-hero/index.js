@@ -45,7 +45,7 @@ export default function FrontHero() {
             className="absolute inset-x-0 hidden w-full text-transparent transform -translate-y-6 top-100 lg:block"
             style={strokeText}
           >
-            <span className="relative block h-8 overflow-hidden text-center lg:h-32">
+            <span className="relative block h-8 overflow-hidden text-center lg:h-24">
               <motion.p
                 animate={{ scale: [1, 1.1, 1], opacity: [0, 1, 0.5] }}
                 transition={{ delay: 0.2 }}
@@ -56,10 +56,10 @@ export default function FrontHero() {
             </span>
           </div>
           <div
-            className="absolute inset-x-0 hidden w-full text-transparent transform translate-y-full top-80 lg:block"
+            className="absolute inset-x-0 hidden w-full text-transparent transform translate-y-full top-70 lg:block"
             style={strokeText}
           >
-            <span className="relative block h-12 overflow-hidden text-center lg:h-36">
+            <span className="relative block h-12 overflow-hidden text-center lg:h-24">
               <motion.p
                 animate={{ scale: [1, 1.1, 1], opacity: [0, 1, 0.25] }}
                 transition={{ delay: 0.3 }}

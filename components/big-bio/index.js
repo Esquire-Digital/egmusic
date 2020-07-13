@@ -9,7 +9,7 @@ export default function BigBio() {
   return (
     <>
       <section className="relative z-10 flex flex-col items-start pt-32 lg:pt-48 lg:flex-row bg-eg-epk-1">
-        <h1 className="mx-auto text-6xl text-center uppercase lg:absolute lg:inset-x-0 lg:top-0 lg:z-10 font-ant md:text-mega lg:text-mighty xl:text-monster xxl:text-massive text-eg-black">
+        <h1 className="mx-auto text-5xl leading-none text-center uppercase lg:absolute lg:inset-x-0 lg:top-0 lg:z-10 font-ant md:text-mega lg:text-mighty xl:text-monster text-eg-black lg:leading-relaxed">
           Emily Gabriele
         </h1>
         <div className="relative flex flex-col p-8 space-y-16 font-bold text-white lg:p-16 lg:w-1/2 font-mont">
@@ -71,8 +71,8 @@ export default function BigBio() {
               {isDesktop ? (
                 <FontAwesomeIcon className="ml-4" icon={faLongArrowAltRight} />
               ) : (
-                  <></>
-                )}
+                <></>
+              )}
             </a>
             <a
               className="button primary"
@@ -83,8 +83,8 @@ export default function BigBio() {
               {isDesktop ? (
                 <FontAwesomeIcon className="ml-4" icon={faLongArrowAltRight} />
               ) : (
-                  <></>
-                )}
+                <></>
+              )}
             </a>
           </div>
         </div>
