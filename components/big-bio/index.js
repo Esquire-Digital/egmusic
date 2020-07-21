@@ -14,6 +14,7 @@ export default function BigBio() {
     officialWebsite,
     blurbTitle,
     bioImg,
+    bioImgAlt,
     fullBio,
     logo
   } = attributes;
