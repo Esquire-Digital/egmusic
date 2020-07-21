@@ -1,4 +1,4 @@
 ---
-mainLogo: images/eg-logo.png
-altLogo: images/eg-logo-color.png
+mainLogo: media/eg-logo.png
+altLogo: media/eg-logo-color.png
 ---

@@ -15,7 +15,7 @@ export default function Bio() {
         />
         {/* <img
           className="object-cover object-center w-full h-full"
-          src={require("../../public/images/profile-photo.png")}
+          src={require("../../public/media/profile-photo.png")}
           alt="Emily standing on the street, holding a guitar with one hand"
         /> */}
       </div>

@@ -19,14 +19,14 @@ export default function FrontHero() {
     >
       <LazyLoadImage
         className="absolute top-0 left-0 object-cover object-top w-full h-full"
-        src={require("../../public/images/banner-v2.png")}
+        src={require("../../public/media/banner-v2.png")}
         alt="EG Music on stage"
         width="100%"
         height="750px"
       />
       {/* <img
         className="absolute top-0 left-0 object-cover object-top w-full h-full"
-        src={require("../../public/images/banner-v2.png")}
+        src={require("../../public/media/banner-v2.png")}
         alt="EG Music on stage"
         width="100%"
         height="750px"

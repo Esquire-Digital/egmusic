@@ -1,5 +1,5 @@
 ---
-bioImg: /images/profile-photo.png
+bioImg: /media/profile-photo.png
 bioImgAlt: Emily standing on the street, holding a guitar with one hand
 title: Jersey Soul. NYC Blues.
 ---

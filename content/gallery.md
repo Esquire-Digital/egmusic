@@ -1,15 +1,15 @@
 ---
 galleryImages:
-  - image: "1"
+  - image: media/grid-1.png
     alt: ""
-  - image: "2"
+  - image: media/grid-2.png
     alt: ""
-  - image: "3"
+  - image: media/grid-3.png
     alt: ""
-  - image: "4"
+  - image: media/grid-4.png
     alt: ""
-  - image: "5"
+  - image: media/grid-5.png
     alt: ""
-  - image: "6"
+  - image: media/grid-6.png
     alt: ""
 ---

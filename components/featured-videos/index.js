@@ -31,7 +31,7 @@ export default function FeaturedVideos() {
               />
               {/* <img
               className="relative z-10 object-cover object-center w-full h-full"
-              src={require("../../public/images/thumb-2.png")}
+              src={require("../../public/media/thumb-2.png")}
               alt=""
             /> */}
               <div className="absolute bottom-0 left-0 w-full h-full transform -translate-x-6 translate-y-6 bg-eg-blue"></div>

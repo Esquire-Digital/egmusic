@@ -12,7 +12,7 @@ export default function Disclaimer() {
       />
       {/* <img
         className="w-32 mx-auto my-8"
-        src={require("../../public/images/eg-logo-color.png")}
+        src={require("../../public/media/eg-logo-color.png")}
         alt="EG Music Logo in Blue"
       /> */}
       <p className="font-bold text-center text-white font-mont">

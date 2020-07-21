@@ -15,12 +15,12 @@ export default function Spotify() {
       >
         <LazyLoadImage
           className="absolute bottom-0 left-0 w-64 lg:w-80"
-          src={require("../../public/images/spotify.png")}
+          src={require("../../public/media/spotify.png")}
           alt="Spotify logo"
         />
         {/* <img
           className="absolute bottom-0 left-0 w-64 lg:w-80"
-          src={require("../../public/images/spotify.png")}
+          src={require("../../public/media/spotify.png")}
           alt="Spotify logo"
         /> */}
         <a

@@ -11,14 +11,14 @@ export default function GridImage({ image, alt }) {
       <div className="absolute inset-0 w-full h-full transition duration-300 opacity-0 bg-eg-blue hover:opacity-25"></div>
       <LazyLoadImage
         className="object-cover object-center w-full h-full"
-        src={require(`../../public/images/grid-${image}.png`)}
+        src={image}
         alt={alt}
         width="425px"
         height="425px"
       />
       {/* <img
         className="object-cover object-center w-full h-full"
-        src={require(`../../public/images/grid-${image}.png`)}
+        src={require(`../../public/media/grid-${image}.png`)}
         alt={alt}
         width="425px"
         height="425px"

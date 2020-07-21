@@ -34,7 +34,7 @@ export default function Header() {
               className="w-16 lg:w-24"
             />
             {/* <img
-              src={require("../../public/images/eg-logo.png")}
+              src={require("../../public/media/eg-logo.png")}
               alt="EG Music Logo"
               className="w-16 lg:w-24"
             /> */}

@@ -14,7 +14,7 @@ export default function DLImage({ src, alt, span }) {
       />
       {/* <img
         className="object-cover w-full h-full"
-        src={require(`../../public/images/dl-${image}.png`)}
+        src={require(`../../public/media/dl-${image}.png`)}
         alt={alt}
       /> */}
       <FontAwesomeIcon

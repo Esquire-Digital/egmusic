@@ -6,8 +6,8 @@ years: 2013 - Present
 label: Independant
 officialWebsite: egmusicnyc.com
 blurbTitle: Jersey Soul. NYC Blues.
-fullBio: images/eg-music-bio.pdf
-logo: images/eg-music-logo.pdf
+fullBio: media/eg-music-bio.pdf
+logo: media/eg-music-logo.pdf
 ---
 
 Emily Gabriele, commonly known as, "EG" is an NYC-based singer/songwriter. Her music is pop infused with a bit of rock.
