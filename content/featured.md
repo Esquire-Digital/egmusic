@@ -1,9 +1,10 @@
 ---
 videos:
-  - video: https://www.youtube.com/watch?v=7LRUPl_dfjQ
+  - thumbAlt: Emily on stage
     thumbnail: media/thumb-1.png
-    thumbAlt: "Emily on stage"
-  - video: https://www.youtube.com/watch?v=J6Z_2pW27qA
+    video: 'https://www.youtube.com/watch?v=7LRUPl_dfjQ'
+  - thumbAlt: Emily on stage closeup
     thumbnail: media/thumb-2.png
-    thumbAlt: "Emily on stage"
+    video: 'https://www.youtube.com/watch?v=J6Z_2pW27qA'
 ---
+
