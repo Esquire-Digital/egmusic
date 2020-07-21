@@ -81,7 +81,7 @@ export default class Footer extends React.Component {
             onSubmit={this.handleSubmit}
             id="form"
           >
-            <input type="hidden" name="form-name" value="Contact" />
+            <input type="hidden" name="form-name" value="Contact Form" />
             <input type="hidden" name="Fax" />
             <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
               <div className="flex flex-col items-start">
