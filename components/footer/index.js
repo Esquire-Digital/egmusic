@@ -77,7 +77,7 @@ export default class Footer extends React.Component {
             name="Contact Form"
             method="POST"
             className="gap-16 my-8 lg:grid lg:grid-rows-3 lg:gap-4 lg:my-24"
-            data-netlify='true'
+            data-netlify="true"
             onSubmit={this.handleSubmit}
             id="form"
           >
