@@ -4,7 +4,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import { attributes } from '../../content/featured.md';
 
 export default function FeaturedVideos() {
-  let { featuredVideos } = attributes;
+  let { videos } = attributes;
   const [embed, setEmbed] = useState("");
 
   function openModal(embed) {
@@ -21,7 +21,7 @@ export default function FeaturedVideos() {
         className="grid grid-cols-1 gap-12 px-6 py-8 lg:gap-24 lg:px-24 lg:py-16 lg:grid-cols-2"
         id="live"
       >
-        {featuredVideos.slice(0, 2).map((vid, k) => (
+        {videos.slice(0, 2).map((vid, k) => (
           <div key={k} className="flex flex-col items-end justify-end">
             <div className="relative">
               <LazyLoadImage

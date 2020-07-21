@@ -3,7 +3,7 @@ name: Emily Gabriele
 origin: NJ / NYC
 genre: Pop/Rock
 years: 2013 - Present
-label: Independant
+label: Independent
 officialWebsite: egmusicnyc.com
 blurbTitle: Jersey Soul. NYC Blues.
 fullBio: media/eg-music-bio.pdf

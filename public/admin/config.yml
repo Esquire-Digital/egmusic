@@ -80,7 +80,7 @@ collections:
             name: "genre"
             widget: "string"
           - label: "Years Active"
-            name: "years Active"
+            name: "years"
             widget: "string"
           - label: "Label"
             name: "label"
