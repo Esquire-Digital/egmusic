@@ -27,7 +27,7 @@ export default class Footer extends React.Component {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({
-        "form-name": "Contact", ...this.state
+        "form-name": "Contact Form", ...this.state
       })
     })
       .then(() => {
