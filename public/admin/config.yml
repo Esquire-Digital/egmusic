@@ -1,15 +1,136 @@
 backend:
   name: git-gateway
   branch: master
-media_folder: public/img
-public_folder: img
+media_folder: public/images
+public_folder: images
+site_url: https://egmusic.netlify.app
 collections:
-  - name: "content"
-    label: "Content"
+  - name: "siteSettings"
+    label: "Site Settings"
+    files:
+      - label: "Site Settings"
+        name: "globalSettings"
+        file: "content/settings.md"
+        fields:
+          - label: "Main Logo"
+            name: "mainLogo"
+            widget: "image"
+          - label: "Alternate Logo"
+            name: "altLogo"
+            widget: "image"
+  - name: "home"
+    label: "Home"
     files:
       - label: "Bio"
         name: "bio"
         file: "content/bio.md"
         fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
+          - label: "Bio Image"
+            name: "bioImg"
+            widget: "image"
+          - label: "Bio Image Alt"
+            name: "bioImgAlt"
+            widget: "string"
+          - label: "Title"
+            name: "title"
+            widget: "string"
+          - label: "Body"
+            name: "body"
+            widget: "markdown"
+      - label: "Gallery"
+        name: "gallery"
+        file: "content/gallery.md"
+        fields:
+          - label: "Gallery Images"
+            name: "galleryImages"
+            widget: "list"
+            fields:
+              - { label: Image, name: image, widget: image }
+              - { label: Alt, name: alt, widget: string }
+  - name: "featured"
+    label: "Featured Videos"
+    files:
+      - label: "Featured Videos"
+        name: "featuredVideos"
+        file: "content/featured.md"
+        fields:
+          - label: "Videos"
+            name: "videos"
+            widget: "list"
+            fields:
+              - { label: Thumbnail, name: thumbnail, widget: image }
+              - { label: Thumb Alt, name: thumbAlt, widget: string }
+              - { label: Video Url, name: video, widget: string }
+  - name: "epk"
+    label: "EPK"
+    files:
+      - label: "Detailed Bio"
+        name: "epkBio"
+        file: "content/epk-bio.md"
+        fields:
+          - label: "Name"
+            name: "name"
+            widget: "string"
+          - label: "Origin"
+            name: "origin"
+            widget: "string"
+          - label: "Genre"
+            name: "genre"
+            widget: "string"
+          - label: "Years Active"
+            name: "years Active"
+            widget: "string"
+          - label: "Label"
+            name: "label"
+            widget: "string"
+          - label: "Official Website"
+            name: "officialWebsite"
+            widget: "string"
+          - label: "Blurb Title"
+            name: "blurbTitle"
+            widget: "string"
+          - label: "Body"
+            name: "body"
+            widget: "markdown"
+          - label: "Downloadable Bio"
+            name: "fullBio"
+            widget: "file"
+          - label: "Downloadable Logo"
+            name: "logo"
+            widget: "file"
+      - label: "Music & Press"
+        name: "musicPress"
+        file: "content/music-press.md"
+        fields:
+          - label: "Spotify Embed"
+            name: "spotifyEmbed"
+            widget: "string"
+          - label: "Press"
+            name: "press"
+            widget: "list"
+            fields:
+              - { label: Text, name: text, widget: string }
+              - { label: Url, name: url, widget: string }
+      - label: "Downloadable Images"
+        name: "downloadImg"
+        file: "content/epk-gallery.md"
+        fields:
+          - label: "Images"
+            name: "images"
+            widget: "list"
+            fields:
+              - { label: Image, name: image, widget: image }
+              - { label: Alt, name: alt, widget: string }
+      - label: "Representation Info"
+        name: "representation"
+        file: "content/epk-rep.md"
+        fields:
+          - label: "Label"
+            name: "label"
+            widget: "string"
+          - label: "Email"
+            name: "email"
+            widget: "string"
+          - label: "Phone Number"
+            name: "phone"
+            widget: "string"

@@ -2,14 +2,14 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
-export default function DLImage({ src, alt, span, image }) {
+export default function DLImage({ src, alt, span }) {
   const cls = `relative transition duration-300 transform hover:scale-105 ${span}`;
 
   return (
     <a className={cls} href={src} download>
       <LazyLoadImage
         className="object-cover w-full h-full"
-        src={require(`../../public/images/dl-${image}.png`)}
+        src={src}
         alt={alt}
       />
       {/* <img

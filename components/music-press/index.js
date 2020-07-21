@@ -1,6 +1,8 @@
 import Press from "./press";
+import { attributes } from '../../content/music-press.md';
 
 export default function MusicPress() {
+  let { spotifyEmbed, press } = attributes;
   return (
     <section className="flex flex-col lg:flex-row">
       <div className="flex flex-col items-center p-12 lg:p-24 lg:w-1/2 bg-eg-black lg:items-start">
@@ -8,7 +10,7 @@ export default function MusicPress() {
           Music
         </p>
         <iframe
-          src="https://open.spotify.com/embed/track/44g7LTTM8dSw2Zb7fnv6DI"
+          src={spotifyEmbed}
           width="300"
           height="80"
           frameborder="0"
@@ -22,14 +24,13 @@ export default function MusicPress() {
           Press
         </p>
         <ul className="flex flex-col my-8 space-y-4">
-          <Press
-            text="Interview With Vents Magazine"
-            link="https://ventsmagazine.com/2020/04/10/interview-emily-gabriele/"
-          />
-          <Press
-            text="“Monday” Exclusive With Buzz Music"
-            link="https://www.buzz-music.com/post/exclusive-interview-emily-gabriele-dives-deep-into-her-latest-release-monday"
-          />
+          {press.slice(0, 6).map((item, k) => (
+            <Press
+              key={k}
+              text={item.title}
+              link={item.url}
+            />
+          ))}
         </ul>
       </div>
     </section>

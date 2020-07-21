@@ -4,8 +4,10 @@ import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import { attributes } from '../../content/settings.md';
 
 export default function Header() {
+  let { mainLogo } = attributes;
   const router = useRouter();
   const [isHome, setIsHome] = useState(true);
 
@@ -27,7 +29,7 @@ export default function Header() {
         <div className="w-1/2">
           <a href="/">
             <LazyLoadImage
-              src={require("../../public/images/eg-logo.png")}
+              src={mainLogo}
               alt="EG Music Logo"
               className="w-16 lg:w-24"
             />

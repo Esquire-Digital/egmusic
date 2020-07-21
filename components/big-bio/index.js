@@ -2,8 +2,20 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLongArrowAltRight } from "@fortawesome/free-solid-svg-icons";
 import { useMedia } from "react-use";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import { attributes, react as EpkBioContent } from '../../content/epk-bio.md';
 
 export default function BigBio() {
+  let {
+    name,
+    origin,
+    genre,
+    years,
+    label,
+    officialWebsite,
+    blurbTitle,
+    fullBio,
+    logo
+  } = attributes;
   const isDesktop = useMedia("(min-width: 1280px)", true);
 
   return (
@@ -16,38 +28,51 @@ export default function BigBio() {
           <div className="flex flex-col space-y-4">
             <p className="mb-8 text-4xl uppercase text-eg-blue">Bio</p>
             <p>
-              <span className="text-eg-blue">Name:</span> Emily Gabriele
+              <span className="text-eg-blue">
+                Name:</span> {name}
             </p>
             <p>
-              <span className="text-eg-blue">Origin:</span> NJ / NYC
+              <span className="text-eg-blue">
+                Origin:</span> {origin}
             </p>
             <p>
-              <span className="text-eg-blue">Genre:</span> Pop/Rock
+              <span className="text-eg-blue">
+                Genre:</span> {genre}
             </p>
             <p>
-              <span className="text-eg-blue">Years Active:</span> 2013 - Present
+              <span className="text-eg-blue">
+                Years Active:</span> {years}
             </p>
             <p>
-              <span className="text-eg-blue">Label:</span> Independent
+              <span className="text-eg-blue">
+                Label:</span> {label}
             </p>
             <p>
-              <span className="text-eg-blue">Official Website:</span>{" "}
-              egmusicnyc.com
+              <span className="text-eg-blue">
+                Official Website:</span>{" "}
+              {officialWebsite}
             </p>
           </div>
           <div>
             <p className="mb-8 text-4xl leading-none uppercase text-eg-blue">
-              Jersey Soul, NYC Blues.
+              {blurbTitle}
             </p>
-            <p className="mb-4 font-normal leading-loose">
-              Emily Gabriele, commonly known as, "EG" is an NYC-based
-              singer/songwriter. Her music is pop infused with a bit of rock.
-            </p>
-            <p className="font-normal leading-loose">
-              She performs live all around New York City's vibrant music scene
-              and steadily writes songs that tap into multiple genres, but have
-              a home rooted in the pop genre.
-            </p>
+            <style global jsx>{`
+              .frontmatter-markdown {
+                font-weight: normal;
+                line-height: 2;
+              }
+
+              .frontmatter-markdown p {
+                margin-bottom: 1rem;
+              }
+
+              .frontmatter-markdown p:last-of-type {
+                margin-bottom: 0;
+              }
+            `}
+            </style>
+            <EpkBioContent />
           </div>
         </div>
         <div className="relative lg:w-1/2 ">
@@ -65,26 +90,26 @@ export default function BigBio() {
             <a
               className="button primary"
               download
-              href="/pdfs/eg-music-bio.pdf"
+              href={fullBio}
             >
               Download Full Bio
               {isDesktop ? (
                 <FontAwesomeIcon className="ml-4" icon={faLongArrowAltRight} />
               ) : (
-                <></>
-              )}
+                  <></>
+                )}
             </a>
             <a
               className="button primary"
               download
-              href="/pdfs/eg-music-logo.pdf"
+              href={logo}
             >
               Download Logo
               {isDesktop ? (
                 <FontAwesomeIcon className="ml-4" icon={faLongArrowAltRight} />
               ) : (
-                <></>
-              )}
+                  <></>
+                )}
             </a>
           </div>
         </div>

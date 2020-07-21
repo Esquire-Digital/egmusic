@@ -1,9 +1,11 @@
 import Disclaimer from "../disclaimer";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLongArrowAltRight } from "@fortawesome/free-solid-svg-icons";
+import { attributes } from '../../content/epk-rep.md'
+
 
 export default function Footer() {
+  let { email } = attributes
   return (
     <>
       <footer className="relative px-6 pt-24 pb-4 bg-eg-contact lg:px-24 lg:pt-64 lg:pb-4">
@@ -18,8 +20,8 @@ export default function Footer() {
         </p>
         <p className="font-bold text-center text-white font-mont">
           For all booking and press inquiries, please contact
-          <a href="mailto:info@egmusicnyc.com" className="ml-2 text-eg-blue">
-            info@egmusicnyc.com
+          <a href={`mailto:${email}`} className="ml-2 text-eg-blue">
+            {email}
           </a>
         </p>
         <form

@@ -3,15 +3,15 @@ import { attributes, react as BioContent } from '../../content/bio.md';
 
 
 export default function Bio() {
-  let { title } = attributes;
+  let { title, bioImg, bioImgAlt } = attributes;
 
   return (
     <section className="flex flex-col mx-auto md:flex-row" id="learn">
       <div className="md:w-1/2">
         <LazyLoadImage
           className="object-cover object-center w-full h-full"
-          src={require("../../public/images/profile-photo.png")}
-          alt="Emily standing on the street, holding a guitar with one hand"
+          src={bioImg}
+          alt={bioImgAlt}
         />
         {/* <img
           className="object-cover object-center w-full h-full"

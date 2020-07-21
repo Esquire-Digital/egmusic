@@ -1,7 +1,10 @@
 import GridImage from "./image";
 import { useMedia } from "react-use";
+import { attributes } from '../../content/gallery.md';
 
 export default function Grid() {
+  let { galleryImages } = attributes;
+
   const isDesktop = useMedia("(min-width: 1024px)", true);
   const style = isDesktop
     ? { minHeight: "650px", maxWidth: "100vw" }
@@ -12,12 +15,15 @@ export default function Grid() {
       id="follow"
       style={style}
     >
-      <GridImage image="1" alt="" />
+      {galleryImages.slice(0, 6).map((img, k) => (
+        <GridImage key={k} image={img.image} alt={img.alt} />
+      ))}
+      {/* <GridImage image="1" alt="" />
       <GridImage image="2" alt="" />
       <GridImage image="3" alt="" />
       <GridImage image="4" alt="" />
       <GridImage image="5" alt="" />
-      <GridImage image="6" alt="" />
+      <GridImage image="6" alt="" /> */}
       <div className="absolute inset-0 flex flex-col items-center justify-center text-2xl font-bold text-center text-white transform pointer-events-none -translate-y-3px font-mont">
         <a
           href="https://www.instagram.com/egmusicnyc/"
