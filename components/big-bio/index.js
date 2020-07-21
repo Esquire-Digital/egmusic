@@ -13,6 +13,7 @@ export default function BigBio() {
     label,
     officialWebsite,
     blurbTitle,
+    bioImg,
     fullBio,
     logo
   } = attributes;
@@ -78,8 +79,8 @@ export default function BigBio() {
         <div className="relative lg:w-1/2 ">
           <LazyLoadImage
             className="object-cover w-full h-full"
-            src={require("../../public/media/bio-1.png")}
-            alt=""
+            src={bioImg}
+            alt={bioImgAlt}
           />
           {/* <img
             className="object-cover w-full h-full"

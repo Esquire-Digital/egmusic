@@ -6,6 +6,8 @@ years: 2013 - Present
 label: Independent
 officialWebsite: egmusicnyc.com
 blurbTitle: Jersey Soul. NYC Blues.
+bioImg: media/bio-1.png
+bioImgAlt: Headshot of Emily
 fullBio: media/eg-music-bio.pdf
 logo: media/eg-music-logo.pdf
 ---
