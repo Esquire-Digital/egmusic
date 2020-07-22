@@ -32,7 +32,7 @@ export default function FrontHero() {
         height="750px"
       /> */}
       <div className="absolute bottom-0 z-10 w-full px-8 mb-48 transform -translate-x-1/2 left-1/2 lg:px-0 lg:w-auto lg:mb-64 lg:-translate-y-16">
-        <div className="relative inline-block w-full mb-8 text-6xl font-normal leading-none text-center uppercase whitespace-no-wrap md:text-12vw lg:text-mega xl:text-mighty font-ant lg:mb-0">
+        <div className="relative inline-block w-full mb-8 text-6xl font-normal leading-none text-center uppercase md:whitespace-no-wrap md:text-12vw lg:text-mega xl:text-mighty font-ant lg:mb-0">
           <div className="text-eg-black" style={strokeText}>
             <motion.p
               animate={{ scale: [1, 1.1, 1], opacity: [0, 1] }}
