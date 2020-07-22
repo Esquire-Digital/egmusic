@@ -27,7 +27,7 @@ export default function MusicPress() {
           {press.slice(0, 6).map((item, k) => (
             <Press
               key={k}
-              text={item.title}
+              text={item.text}
               link={item.url}
             />
           ))}
