@@ -3,7 +3,7 @@ backend:
   branch: master
 media_folder: public/media
 public_folder: media
-site_url: https://egmusic.netlify.app
+site_url: https://www.egmusicnyc.com
 collections:
   - name: "siteSettings"
     label: "Site Settings"
