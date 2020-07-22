@@ -6,7 +6,7 @@ function App({ Component, pageProps }) {
   let [loggedIn, setLoggedIn] = useState(netlifyAuth.isAuthenticated)
 
   useEffect(() => {
-    netlifyAuth.initialize((user) => {
+    netlifyAuth.authenticate((user) => {
       setLoggedIn(!!user)
     })
   }, [loggedIn])
