@@ -1,3 +1,4 @@
 http://egmusicnyc.netlify.app/* https://www.egmusicnyc.com/:splat 301!
 https://egmusicnyc.netlify.app/* https://www.egmusicnyc.com/:splat 301!
-/#invite_token=* /admin#invite_token=:splat 301!
+https://www.egmusicnyc.com/#invite_token=* /admin#invite_token=:splat 301!
+http://www.egmusicnyc.com/#invite_token=* /admin#invite_token=:splat 301!
