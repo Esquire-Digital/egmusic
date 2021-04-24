@@ -5,7 +5,7 @@ genre: Pop/Rock
 years: 2019 - Present
 label: Independent
 officialWebsite: egmusicnyc.com
-blurbTitle: Jersey - NYC | Songwriter - Performing Artist
+blurbTitle: NYC | Songwriter - Performing Artist
 bioImg: media/bio-1.png
 bioImgAlt: Headshot of Emily
 fullBio: media/eg-music-bio.pdf
