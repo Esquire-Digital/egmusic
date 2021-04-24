@@ -1,7 +1,7 @@
 ---
 bioImg: /media/eg_vertical-copy.jpg
 bioImgAlt: 'Emily standing on the street, holding a guitar with one hand'
-title: Jersey - NYC | Songwriter - Performing Artist
+title: NYC | Songwriter - Performing Artist
 ---
 Emily Gabriele, commonly known as, “EG” is an NYC-based singer/songwriter. Her music is pop infused with a bit of rock. As a teenager, she taught herself the guitar. Drawing from influences like Alanis Morissette, Stevie Nicks, Sheryl Crow and The Beatles her music is pop infused with a bit of rock. 
 
