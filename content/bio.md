@@ -3,7 +3,7 @@ bioImg: /media/eg_vertical-copy.jpg
 bioImgAlt: Headshot of Emily
 title: NYC | Performing Artist - Songwriter
 ---
-PERFORMING ARTIST
+# PERFORMING ARTIST
 
 Emily Gabriele, commonly known as, “EG”, is a NYC-based singer-songwriter and performing artist. Her music is pop infused with a bit of rock – think Olivia Rodrigo meets Alanis Morissette.  
 
@@ -11,17 +11,13 @@ She has performed live all around New York City’s vibrant music scene at iconi
 
 Emily is currently gearing up to release her new album, Omega Man, on April 8, 2022. She’s supporting the release with a concert at the Bowery Electric on Saturday, April 9. 2022. 
 
-SONGWRITER + SYNC LICENSING
+# SONGWRITER + SYNC LICENSING
 
-**SONGS**
+## SONGS
 
-Wrinkles by Emily Gabriele 
+Wrinkles by Emily Gabriele <br>Placement for an independent film festival trailer, <a href="https://vimeo.com/427415383">Nevertheless Film Festival</a></br>Summer of 2020
 
-Placement for an independent film festival trailer, [Nevertheless Film Festival](https://vimeo.com/427415383)
-
-Summer of 2020
-
-**PRODUCTION WORK**
+## PRODUCTION WORK
 
 Intro Music by Emily Gabriele 
 <br>Created for <a href="https://open.spotify.com/show/5Z3z4C5rhSXT6rGUIPlLxt?si=4842d11d784746ab">FRESH Takes on the Future of Work Podcast</a></br>Winter of 2021
