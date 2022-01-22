@@ -1,12 +1,40 @@
 ---
 bioImg: /media/eg_vertical-copy.jpg
 bioImgAlt: Headshot of Emily
-title: NYC | Songwriter - Performing Artist
+title: NYC | Performing Artist - Songwriter
 ---
-Emily Gabriele, commonly known as, “EG” is an NYC-based singer/songwriter. Her music is pop infused with a bit of rock. As a teenager, she taught herself the guitar. Drawing from influences like Alanis Morissette, Stevie Nicks, Sheryl Crow and The Beatles her music is pop infused with a bit of rock. 
+# PERFORMING ARTIST 
 
-She has performed live all around New York City’s vibrant music scene at iconic venues like Pete’s Candy Store, Arlene’s Grocery, Rockwood Music Hall and the Bowery Electric. She steadily writes songs that tap into multiple genres but have a home rooted in the pop genre.
+Emily Gabriele, commonly known as, “EG”, is a NYC-based singer-songwriter and performing artist. Her music is pop infused with a bit of rock – think Olivia Rodrigo meets Alanis Morissette. 
 
-Emily recently landed her first sync placement for an independent film festival trailer, [Nevertheless Film Festival](https://vimeo.com/427415383), in the Summer of 2020.
+She has performed live all around New York City’s vibrant music scene at iconic venues like Pete’s Candy Store, Arlene’s Grocery, Rockwood Music Hall, and the Bowery Electric. Her songs tap into multiple genres but have a home rooted in pop. 
 
-Currently, EG is working on her next project as a follow-up from her album, "Special Delivery," released in Winter of 2019.
+Emily is currently gearing up to release her new album, Omega Man, on April 8, 2022. She’s supporting the release with a concert at the Bowery Electric on Saturday, April 9. 2022. 
+
+# SONGWRITER + SYNC LICENSING
+
+## SONGS
+
+Wrinkles by Emily Gabriele
+
+Placement for an independent film festival trailer, Nevertheless Film Festival
+
+Summer of 2020
+
+
+
+## PRODUCTION WORK
+
+Intro Music by Emily Gabriele 
+
+Created for FRESH Takes on the Future of Work Podcast
+
+Winter of 2021
+
+
+
+Intro Music by Emily Gabriele
+
+Created for Nicstalgia
+
+Winter of 2022
