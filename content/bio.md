@@ -5,7 +5,7 @@ title: NYC | Performing Artist - Songwriter
 ---
 # PERFORMING ARTIST
 
-Emily Gabriele, commonly known as, “EG”, is a NYC-based singer-songwriter and performing artist. Her music is pop infused with a bit of rock – think Olivia Rodrigo meets Alanis Morissette. 
+Emily Gabriele, commonly known as, “EG”, is a NYC-based singer-songwriter and performing artist. Her music is pop infused with a bit of rock – think Olivia Rodrigo meets Alanis Morissette.  
 
 She has performed live all around New York City’s vibrant music scene at iconic venues like Pete’s Candy Store, Arlene’s Grocery, Rockwood Music Hall, and the Bowery Electric. Her songs tap into multiple genres but have a home rooted in pop. 
 
@@ -16,7 +16,6 @@ Emily is currently gearing up to release her new album, Omega Man, on April 8, 2
 ## SONGS
 
 Wrinkles by Emily Gabriele <br>Placement for an independent film festival trailer, <a href="https://vimeo.com/427415383">Nevertheless Film Festival</a></br>Summer of 2020
-
 
 ## PRODUCTION WORK
 
