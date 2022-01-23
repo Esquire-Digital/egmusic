@@ -1,7 +1,7 @@
 ---
 bioImg: /media/eg_vertical-copy.jpg
 bioImgAlt: Headshot of Emily
-title: NYC | Performing Artist - Songwrite
+title: NYC | Performing Artist - Songwriter
 ---
 # PERFORMING ARTIST
 
