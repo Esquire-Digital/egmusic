@@ -9,7 +9,7 @@ export default function UpcomingShows({ shows }) {
         className="grid grid-cols-1 gap-4 px-4 my-16 lg:mb-32 md:px-12"
         id="shows"
       >
-        {shows.length !== 0 ? (
+        {shows != null && shows.length !== 0 ? (
           <>
             {shows.map((show) => (
               <div

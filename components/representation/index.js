@@ -11,7 +11,6 @@ export default function Representation() {
         </p>
         <p className="mb-16 font-bold leading-relaxed text-white font-mont">
           Label & Management:
-          <br />
           {label} | {email}, {phone}
         </p>
         <Disclaimer />

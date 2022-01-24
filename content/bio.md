@@ -15,11 +15,16 @@ Emily is currently gearing up to release her new album, Omega Man, on April 8, 2
 
 ## SONGS
 
-Wrinkles by Emily Gabriele <br>Placement for an independent film festival trailer, <a href="https://vimeo.com/427415383">Nevertheless Film Festival</a></br>Summer of 2020
+Wrinkles by Emily Gabriele
+Placement for an independent film festival trailer, <a href="https://vimeo.com/427415383">Nevertheless Film Festival</a> .  
+Summer of 2020
 
 ## PRODUCTION WORK
 
 Intro Music by Emily Gabriele 
-<br>Created for <a href="https://open.spotify.com/show/5Z3z4C5rhSXT6rGUIPlLxt?si=4842d11d784746ab">FRESH Takes on the Future of Work Podcast</a></br>Winter of 2021
+Created for <a href="https://open.spotify.com/show/5Z3z4C5rhSXT6rGUIPlLxt?si=4842d11d784746ab">FRESH Takes on the Future of Work Podcast</a>   
+Winter of 2021
 
-Intro Music by Emily Gabriele<br>Created for Nicstalgia</br>Winter of 2022
+Intro Music by Emily Gabriele
+Created for Nicstalgia 
+Winter of 2022
