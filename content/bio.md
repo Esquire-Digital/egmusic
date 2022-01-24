@@ -3,7 +3,7 @@ bioImg: /media/eg_vertical-copy.jpg
 bioImgAlt: Headshot of Emily
 title: NYC | Performing Artist - Songwriter
 ---
-# PERFORMING ARTIST
+# <b>PERFORMING ARTIST</b>
 
 Emily Gabriele, commonly known as, “EG”, is a NYC-based singer-songwriter and performing artist. Her music is pop infused with a bit of rock – think Olivia Rodrigo meets Alanis Morissette.  
 
