@@ -60,3 +60,11 @@ body {
     transform: rotate(360deg);
   }
 }
+
+h1 {
+  @apply font-xl font-bold text-eg-blue;
+}
+
+a {
+  @apply font-bold text-eg-blue;
+}
