@@ -62,9 +62,17 @@ body {
 }
 
 h1 {
-  @apply text-xl font-bold text-eg-blue;
+  @apply text-2xl font-bold text-eg-blue;
+}
+
+h2 {
+  @apply text-xl;
 }
 
 a {
   @apply font-bold text-eg-blue;
+}
+
+a:hover {
+  @apply underline;
 }
