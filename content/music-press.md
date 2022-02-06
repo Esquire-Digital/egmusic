@@ -2,7 +2,7 @@
 spotifyEmbed: >-
   <iframe
   src="https://open.spotify.com/embed/track/44g7LTTM8dSw2Zb7fnv6DI?utm_source=generator"
-  width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay;
+  width="250" height="80" frameBorder="0" allowfullscreen="" allow="autoplay;
   clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 press:
   - text: Music Trails Highlights the Release of "You Oughta Know" Cover
