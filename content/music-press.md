@@ -13,5 +13,12 @@ press:
   - text: “Monday” Exclusive With Buzz Music
     url: >-
       https://www.buzz-music.com/post/exclusive-interview-emily-gabriele-dives-deep-into-her-latest-release-monday
+  - text: >-
+      The Broken Glass Podcast: Building an Independent Artist Career with Emily
+      Gabriele
+    url: 'https://www.brokenglassmediallc.com/podcast/ep049'
+  - text: Interview on Oh My Stars! A Musicstrology Podcast
+    url: >-
+      https://www.musicstrologypodcast.com/1757517/8590087-dolly-parton-and-kurt-cobain-with-emily-gabriele-and-nick-rauch
 ---
 
