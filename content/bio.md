@@ -9,7 +9,9 @@ Emily Gabriele, commonly known as, “EG”, is a NYC-based singer-songwriter an
 
 She has performed live all around New York City’s vibrant music scene at iconic venues like Pete’s Candy Store, Arlene’s Grocery, Rockwood Music Hall, and the Bowery Electric. Her songs tap into multiple genres but have a home rooted in pop. 
 
-Emily is currently gearing up to release her new album, Omega Man, on April 8, 2022. She’s supporting the release with a concert at the Bowery Electric on Saturday, April 9. 2022. 
+Emily is currently gearing up to release her new album, Omega Man which will be released in full on May 27, 2022. EG will be releasing a single off of the project every two weeks starting on March 4, 2022.
+
+She’s supporting the release of Omega Man with a concert at the Bowery Electric on Saturday, April 9. 2022. 
 
 # SONGWRITER + SYNC LICENSING
 
