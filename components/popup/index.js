@@ -77,18 +77,20 @@ export default function Popup() {
       style={{ zIndex: "999999999" }}
     >
       <div
-        className={
-          "absolute top-0 left-0 flex w-full h-full bg-black transition-all duration-500 ease-in-out " +
-          (open ? "opacity-50" : "opacity-0")
-        }
+        className="absolute top-0 left-0 flex w-full h-full transition-all duration-500 ease-in-out bg-black opacity-0"
+        style={{
+          opacity: open && "50%",
+        }}
         onClick={closePopup}
       ></div>
       <div
-        className={
-          "relative flex flex-col max-h-screen overflow-auto sm:overflow-visible items-center justify-center px-4 sm:px-8 md:px-12 py-24 lg:px-24 gap-12 text-white shadow-lg transform transition-all duration-500 ease-in-out " +
-          (open ? "opacity-100" : "opacity-0 scale-125")
-        }
-        style={{ backgroundColor: "#1a1d21", width: "45rem" }}
+        className="relative flex flex-col items-center justify-center max-h-screen gap-12 px-4 py-24 overflow-auto text-white transition-all duration-500 ease-in-out transform scale-125 shadow-lg opacity-0 sm:overflow-visible sm:px-8 md:px-12 lg:px-24 "
+        style={{
+          backgroundColor: "#1a1d21",
+          width: "45rem",
+          opacity: open && "100%",
+          scale: open && "100%",
+        }}
       >
         <h2
           className="absolute top-0 hidden text-6xl text-transparent uppercase transform -translate-y-1/2 opacity-75 sm:block font-ant lg:text-mega"
