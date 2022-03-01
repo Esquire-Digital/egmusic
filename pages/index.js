@@ -9,6 +9,7 @@ import Footer from "../components/footer";
 import BackToTop from "../components/back-to-top";
 
 import { getShows } from "../utils/get-shows";
+import Popup from "../components/popup";
 
 export async function getStaticProps() {
   const shows = await getShows();
@@ -23,6 +24,7 @@ export async function getStaticProps() {
 export default function Home({ shows }) {
   return (
     <>
+      <Popup />
       <Header />
       <FrontHero />
       <Bio />
