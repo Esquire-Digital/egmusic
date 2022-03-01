@@ -54,7 +54,6 @@ export default function Popup() {
   const onSubmit = async (e) => {
     e.preventDefault();
     const formData = new FormData(formRef.current);
-    const json = JSON.stringify(Object.fromEntries(formData.entries()));
     try {
       await fetch("https://egmusicnyc.us20.list-manage.com/subscribe/post", {
         method: "POST",
@@ -79,7 +78,7 @@ export default function Popup() {
       <div
         className="absolute top-0 left-0 flex w-full h-full transition-all duration-500 ease-in-out bg-black opacity-0"
         style={{
-          opacity: open && "50%",
+          opacity: open === true && "50%",
         }}
         onClick={closePopup}
       ></div>
@@ -88,8 +87,8 @@ export default function Popup() {
         style={{
           backgroundColor: "#1a1d21",
           width: "45rem",
-          opacity: open && "100%",
-          scale: open && "100%",
+          opacity: open === true && "100%",
+          scale: open === true && "100%",
         }}
       >
         <h2
@@ -100,7 +99,7 @@ export default function Popup() {
         </h2>
         <button
           onClick={closePopup}
-          className="absolute top-0 right-0 w-12 h-12 text-3xl text-black transition-colors duration-500 ease-in-out transform sm:(translate-x-1/2 -translate-y-1/2) bg-white rounded-full hover:bg-gray-400"
+          className="absolute top-0 right-0 w-12 h-12 text-3xl text-black transition-colors duration-500 ease-in-out transform translate-x-1/2 -translate-y-1/2 bg-white rounded-full hover:bg-gray-400"
         >
           &times;
         </button>
