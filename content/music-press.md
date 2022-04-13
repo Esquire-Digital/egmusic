@@ -22,5 +22,7 @@ press:
   - text: Interview on Oh My Stars! A Musicstrology Podcast
     url: >-
       https://www.musicstrologypodcast.com/1757517/8590087-dolly-parton-and-kurt-cobain-with-emily-gabriele-and-nick-rauch
+  - text: Unsigned Music Blog Reviews "No Mind"
+    url: 'https://unsignedmusicblog.com/emily-gabriele-no-mind/'
 ---
 
