@@ -24,5 +24,7 @@ press:
   - text: Interview on Oh My Stars! A Musicstrology Podcast
     url: >-
       https://www.musicstrologypodcast.com/1757517/8590087-dolly-parton-and-kurt-cobain-with-emily-gabriele-and-nick-rauch
+  - text: Celeb Mix Premieres "Legs"
+    url: 'https://celebmix.com/music-premiere-emily-gabriele-introduces-superb-legs/'
 ---
 
