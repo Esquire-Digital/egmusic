@@ -7,6 +7,8 @@ spotifyEmbed: >-
 press:
   - text: V13 Premieres New Single “No Mind”
     url: 'https://v13.net/2022/03/emily-gabriele-no-mind-song-premiere/'
+  - text: Celeb Mix Premieres "Legs"
+    url: 'https://celebmix.com/music-premiere-emily-gabriele-introduces-superb-legs/'
   - text: Unsigned Music Blog Reviews "No Mind"
     url: 'https://unsignedmusicblog.com/emily-gabriele-no-mind/'
   - text: Music Trails Highlights the Release of "You Oughta Know" Cover
@@ -24,7 +26,5 @@ press:
   - text: Interview on Oh My Stars! A Musicstrology Podcast
     url: >-
       https://www.musicstrologypodcast.com/1757517/8590087-dolly-parton-and-kurt-cobain-with-emily-gabriele-and-nick-rauch
-  - text: Celeb Mix Premieres "Legs"
-    url: 'https://celebmix.com/music-premiere-emily-gabriele-introduces-superb-legs/'
 ---
 
