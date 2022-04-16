@@ -26,5 +26,8 @@ press:
   - text: Interview on Oh My Stars! A Musicstrology Podcast
     url: >-
       https://www.musicstrologypodcast.com/1757517/8590087-dolly-parton-and-kurt-cobain-with-emily-gabriele-and-nick-rauch
+  - text: Interview with Pop Culture Press
+    url: >-
+      https://popculturepress.org/2022/emily-gabriele-shares-the-inspiring-personal-story-of-her-debut-album/
 ---
 
