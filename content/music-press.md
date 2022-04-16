@@ -5,10 +5,13 @@ spotifyEmbed: >-
   width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay;
   clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 press:
-  - text: V13 Premieres New Single “No Mind”
-    url: 'https://v13.net/2022/03/emily-gabriele-no-mind-song-premiere/'
+  - text: Interview with Pop Culture Press
+    url: >-
+      https://popculturepress.org/2022/emily-gabriele-shares-the-inspiring-personal-story-of-her-debut-album/
   - text: Celeb Mix Premieres "Legs"
     url: 'https://celebmix.com/music-premiere-emily-gabriele-introduces-superb-legs/'
+  - text: V13 Premieres New Single “No Mind”
+    url: 'https://v13.net/2022/03/emily-gabriele-no-mind-song-premiere/'
   - text: Unsigned Music Blog Reviews "No Mind"
     url: 'https://unsignedmusicblog.com/emily-gabriele-no-mind/'
   - text: Music Trails Highlights the Release of "You Oughta Know" Cover
@@ -26,8 +29,5 @@ press:
   - text: Interview on Oh My Stars! A Musicstrology Podcast
     url: >-
       https://www.musicstrologypodcast.com/1757517/8590087-dolly-parton-and-kurt-cobain-with-emily-gabriele-and-nick-rauch
-  - text: Interview with Pop Culture Press
-    url: >-
-      https://popculturepress.org/2022/emily-gabriele-shares-the-inspiring-personal-story-of-her-debut-album/
 ---
 
