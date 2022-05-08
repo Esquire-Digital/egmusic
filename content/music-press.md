@@ -5,6 +5,9 @@ spotifyEmbed: >-
   width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay;
   clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 press:
+  - text: Interview with Naluda Magazine
+    url: >-
+      https://www.naludamagazine.com/interview-with-nyc-based-singer-songwriter-emily-gabriele/
   - text: Interview with Pop Culture Press
     url: >-
       https://popculturepress.org/2022/emily-gabriele-shares-the-inspiring-personal-story-of-her-debut-album/
