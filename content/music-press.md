@@ -5,6 +5,9 @@ spotifyEmbed: >-
   width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay;
   clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 press:
+  - text: Guitar Girl Mag Feature
+    url: >-
+      https://guitargirlmag.com/featured/music-premiere-interview-emily-gabriele-introduces-tobacco-leaves/
   - text: Interview with Naluda Magazine
     url: >-
       https://www.naludamagazine.com/interview-with-nyc-based-singer-songwriter-emily-gabriele/
