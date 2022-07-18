@@ -14,8 +14,9 @@ press:
   - text: Interview with Pop Culture Press
     url: >-
       https://popculturepress.org/2022/emily-gabriele-shares-the-inspiring-personal-story-of-her-debut-album/
-  - text: Celeb Mix Premieres "Legs"
-    url: 'https://celebmix.com/music-premiere-emily-gabriele-introduces-superb-legs/'
+  - text: Forbes Zone Premieres "Legs"
+    url: >-
+      https://forbes.zone/2022/04/music-premiere-emily-gabriele-introduces-superb-legs/
   - text: V13 Premieres New Single “No Mind”
     url: 'https://v13.net/2022/03/emily-gabriele-no-mind-song-premiere/'
   - text: Unsigned Music Blog Reviews "No Mind"
@@ -35,5 +36,7 @@ press:
       https://www.buzz-music.com/post/exclusive-interview-emily-gabriele-dives-deep-into-her-latest-release-monday
   - text: Interview With Indie Pulse Music
     url: 'https://indiepulsemusic.com/2020/07/30/emily-gabriele-you-oughta-know/'
+  - text: Celeb Mix Premieres "Legs"
+    url: 'https://celebmix.com/music-premiere-emily-gabriele-introduces-superb-legs/'
 ---
 
