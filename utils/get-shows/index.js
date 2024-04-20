@@ -7,7 +7,8 @@ export async function getShows() {
     "https://rest.bandsintown.com/artists/Emily%20Gabriele/events/?app_id=js_www.artists.bandsintown.com&date=past";
   const url = future;
   const res = await fetch(url);
+
   let shows = await res.json();
-  shows = shows.slice(0, 9);
+  shows = shows.length > 0 ? shows.slice(0, 9) : [];
   return shows;
 }
