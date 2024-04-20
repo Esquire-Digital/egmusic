@@ -5,6 +5,16 @@ spotifyEmbed: >-
   width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay;
   clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 press:
+  - text: >-
+      APM Indie Artists Live: Say 'Hello' to Emily Gabriele and the New Sound of
+      New York City Indie Rock
+    url: >-
+      https://www.apmindieartists.com/post/apm-indie-artists-live-say-hello-to-emily-gabriele-and-the-new-sound-of-new-york-city-indie-rock
+  - text: >-
+      APM Music Hosts First New York Indie Artists Showcase Featuring Top Female
+      Artists
+    url: >-
+      https://www.apmindieartists.com/post/apm-music-hosts-first-new-york-indie-artists-showcase-featuring-top-female-artists
   - text: Guitar Girl Mag Feature
     url: >-
       https://guitargirlmag.com/featured/music-premiere-interview-emily-gabriele-introduces-tobacco-leaves/
