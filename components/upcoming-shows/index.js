@@ -1,6 +1,5 @@
 import { format } from "date-fns";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLongArrowAltRight } from "@fortawesome/free-solid-svg-icons";
+import { LiaLongArrowAltRightSolid } from "react-icons/lia";
 
 export default function UpcomingShows({ shows }) {
   return (
@@ -42,10 +41,7 @@ export default function UpcomingShows({ shows }) {
                     rel="noopener noreferrer"
                   >
                     RSVP
-                    <FontAwesomeIcon
-                      className="ml-4"
-                      icon={faLongArrowAltRight}
-                    />
+                    <LiaLongArrowAltRightSolid className="ml-4" />
                   </a>
                 </div>
               </div>

@@ -1,5 +1,4 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faDownload } from "@fortawesome/free-solid-svg-icons";
+import { FaDownload } from "react-icons/fa";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function DLImage({ src, alt, span }) {
@@ -17,11 +16,7 @@ export default function DLImage({ src, alt, span }) {
         src={require(`../../public/media/dl-${image}.png`)}
         alt={alt}
       /> */}
-      <FontAwesomeIcon
-        className="absolute bottom-0 right-0 mb-4 mr-4 text-white"
-        size="lg"
-        icon={faDownload}
-      />
+      <FaDownload className="absolute bottom-0 right-0 mb-4 mr-4 text-lg text-white" />
     </a>
   );
 }

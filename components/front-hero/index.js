@@ -1,11 +1,9 @@
 import gotoLink from "../../utils/goto-link";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLongArrowAltRight } from "@fortawesome/free-solid-svg-icons";
-import { faFacebookF, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { LiaLongArrowAltRightSolid } from "react-icons/lia";
 import { motion } from "framer-motion";
 import { useMedia } from "react-use";
 import { LazyLoadImage } from "react-lazy-load-image-component";
-
+import { FaFacebookF, FaInstagram } from "react-icons/fa";
 export default function FrontHero() {
   const isDesktop = useMedia("(min-width: 1024px)", true);
   const strokeText = isDesktop
@@ -76,7 +74,7 @@ export default function FrontHero() {
             className="mb-2 lg:mb-0 lg:mr-4 button primary"
           >
             Sign up for updates
-            <FontAwesomeIcon className="ml-4" icon={faLongArrowAltRight} />
+            <LiaLongArrowAltRightSolid className="ml-4"  />
           </motion.button> */}
           <motion.button
             animate={{ scale: [1, 1.1, 1] }}
@@ -87,7 +85,7 @@ export default function FrontHero() {
             }}
           >
             Listen
-            <FontAwesomeIcon className="ml-4" icon={faLongArrowAltRight} />
+            <LiaLongArrowAltRightSolid className="ml-4" />
           </motion.button>
         </div>
       </div>
@@ -102,10 +100,9 @@ export default function FrontHero() {
           rel="noopener noreferrer"
           className="mx-4"
         >
-          <FontAwesomeIcon
-            className="transition duration-300 transform rotate-90 hover:text-eg-blue"
+          <FaFacebookF
+            className="text-lg transition duration-300 transform rotate-90 hover:text-eg-blue"
             size="lg"
-            icon={faFacebookF}
           />
         </a>
         <a
@@ -114,10 +111,9 @@ export default function FrontHero() {
           rel="noopener noreferrer"
           className="mx-4"
         >
-          <FontAwesomeIcon
-            className="transition duration-300 transform rotate-90 hover:text-eg-blue"
+          <FaInstagram
+            className="text-lg transition duration-300 transform rotate-90 hover:text-eg-blue"
             size="lg"
-            icon={faInstagram}
           />
         </a>
       </div>

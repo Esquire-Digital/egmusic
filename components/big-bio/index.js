@@ -1,8 +1,8 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLongArrowAltRight } from "@fortawesome/free-solid-svg-icons";
+import { LiaLongArrowAltRightSolid } from "react-icons/lia";
+
 import { useMedia } from "react-use";
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import { attributes, react as EpkBioContent } from '../../content/epk-bio.md';
+import { attributes, react as EpkBioContent } from "../../content/epk-bio.md";
 
 export default function BigBio() {
   let {
@@ -16,7 +16,7 @@ export default function BigBio() {
     bioImg,
     bioImgAlt,
     fullBio,
-    logo
+    logo,
   } = attributes;
   const isDesktop = useMedia("(min-width: 1280px)", true);
 
@@ -30,28 +30,22 @@ export default function BigBio() {
           <div className="flex flex-col space-y-4">
             <p className="mb-8 text-4xl uppercase text-eg-blue">Bio</p>
             <p>
-              <span className="text-eg-blue">
-                Name:</span> {name}
+              <span className="text-eg-blue">Name:</span> {name}
             </p>
             <p>
-              <span className="text-eg-blue">
-                Origin:</span> {origin}
+              <span className="text-eg-blue">Origin:</span> {origin}
             </p>
             <p>
-              <span className="text-eg-blue">
-                Genre:</span> {genre}
+              <span className="text-eg-blue">Genre:</span> {genre}
             </p>
             <p>
-              <span className="text-eg-blue">
-                Years Active:</span> {years}
+              <span className="text-eg-blue">Years Active:</span> {years}
             </p>
             <p>
-              <span className="text-eg-blue">
-                Label:</span> {label}
+              <span className="text-eg-blue">Label:</span> {label}
             </p>
             <p>
-              <span className="text-eg-blue">
-                Official Website:</span>{" "}
+              <span className="text-eg-blue">Official Website:</span>{" "}
               {officialWebsite}
             </p>
           </div>
@@ -59,20 +53,21 @@ export default function BigBio() {
             <p className="mb-8 text-4xl leading-none uppercase text-eg-blue">
               {blurbTitle}
             </p>
-            <style global jsx>{`
-              .frontmatter-markdown {
-                font-weight: normal;
-                line-height: 2;
-              }
+            <style global jsx>
+              {`
+                .frontmatter-markdown {
+                  font-weight: normal;
+                  line-height: 2;
+                }
 
-              .frontmatter-markdown p {
-                margin-bottom: 1rem;
-              }
+                .frontmatter-markdown p {
+                  margin-bottom: 1rem;
+                }
 
-              .frontmatter-markdown p:last-of-type {
-                margin-bottom: 0;
-              }
-            `}
+                .frontmatter-markdown p:last-of-type {
+                  margin-bottom: 0;
+                }
+              `}
             </style>
             <EpkBioContent />
           </div>
@@ -89,29 +84,21 @@ export default function BigBio() {
             alt=""
           /> */}
           <div className="absolute inset-x-0 bottom-0 flex flex-col items-center justify-center space-y-4 transform -translate-y-4 lg:space-y-0 lg:space-x-4 lg:flex-row lg:translate-y-1/2">
-            <a
-              className="button primary"
-              download
-              href={fullBio}
-            >
+            <a className="button primary" download href={fullBio}>
               Download Full Bio
               {isDesktop ? (
-                <FontAwesomeIcon className="ml-4" icon={faLongArrowAltRight} />
+                <LiaLongArrowAltRightSolid className="ml-4" />
               ) : (
-                  <></>
-                )}
+                <></>
+              )}
             </a>
-            <a
-              className="button primary"
-              download
-              href={logo}
-            >
+            <a className="button primary" download href={logo}>
               Download Logo
               {isDesktop ? (
-                <FontAwesomeIcon className="ml-4" icon={faLongArrowAltRight} />
+                <LiaLongArrowAltRightSolid className="ml-4" />
               ) : (
-                  <></>
-                )}
+                <></>
+              )}
             </a>
           </div>
         </div>

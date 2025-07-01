@@ -1,5 +1,5 @@
 import DLImage from "./image";
-import { attributes } from '../../content/epk-gallery.md'
+import { attributes } from "../../content/epk-gallery.md";
 
 export default function Downloads() {
   let { images } = attributes;
@@ -9,7 +9,7 @@ export default function Downloads() {
       <DLImage span="lg:col-span-6" src={images[1].image} alt={images[1].alt} />
       <DLImage span="lg:col-span-3" src={images[2].image} alt={images[2].alt} />
       <DLImage span="lg:col-span-5" src={images[3].image} alt={images[3].alt} />
-      <DLImage span="lg:col-span-8" src={images[4].image} alt={images[4].alt} />
+      {/* <DLImage span="lg:col-span-8" src={images[4].image} alt={images[4].alt} /> */}
     </section>
   );
 }

@@ -1,6 +1,4 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLongArrowAltRight } from "@fortawesome/free-solid-svg-icons";
-
+import { LiaLongArrowAltRightSolid } from "react-icons/lia";
 export default function Press({ text, link }) {
   return (
     <li>
@@ -13,7 +11,7 @@ export default function Press({ text, link }) {
         <p>{text}</p>
         <span className="flex items-center space-x-2 font-bold uppercase font-ant">
           <p className="tracking-widest">Read</p>
-          <FontAwesomeIcon icon={faLongArrowAltRight} />
+          <LiaLongArrowAltRightSolid />
         </span>
       </a>
     </li>

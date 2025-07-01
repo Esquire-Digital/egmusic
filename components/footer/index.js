@@ -1,37 +1,36 @@
 import Disclaimer from "../disclaimer";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLongArrowAltRight } from "@fortawesome/free-solid-svg-icons";
-import { attributes } from '../../content/epk-rep.md'
+import { LiaLongArrowAltRightSolid } from "react-icons/lia";
+import { attributes } from "../../content/epk-rep.md";
 import { render } from "react-dom";
 
 const encode = (data) => {
   return Object.keys(data)
-    .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+    .map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
     .join("&");
-}
+};
 
 export default class Footer extends React.Component {
-
   constructor(props) {
     super(props);
     this.state = {
       Name: "",
       Email: "",
       Phone: "",
-      Message: ""
+      Message: "",
     };
   }
 
-  handleSubmit = e => {
+  handleSubmit = (e) => {
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({
-        "form-name": "Contact Form", ...this.state
-      })
+        "form-name": "Contact Form",
+        ...this.state,
+      }),
     })
       .then(() => {
-        const res = document.getElementById('response')
+        const res = document.getElementById("response");
         res.innerText = "Thanks for your submission.";
         res.style.display = "block";
         setTimeout(() => {
@@ -39,21 +38,16 @@ export default class Footer extends React.Component {
           res.innerText = "";
         }, 5000);
       })
-      .catch(error => alert(error));
+      .catch((error) => alert(error));
 
     e.preventDefault();
   };
 
-  handleChange = e => this.setState({ [e.target.name]: e.target.value });
+  handleChange = (e) => this.setState({ [e.target.name]: e.target.value });
 
   render() {
-    const {
-      nameInput,
-      emailInput,
-      phoneInput,
-      messageInput
-    } = this.state;
-    let { email } = attributes
+    const { nameInput, emailInput, phoneInput, messageInput } = this.state;
+    let { email } = attributes;
 
     return (
       <>
@@ -66,10 +60,10 @@ export default class Footer extends React.Component {
             }}
           >
             contact
-        </p>
+          </p>
           <p className="font-bold text-center text-white font-mont">
             For all booking and press inquiries, please contact
-          <a href={`mailto:${email}`} className="ml-2 text-eg-blue">
+            <a href={`mailto:${email}`} className="ml-2 text-eg-blue">
               {email}
             </a>
           </p>
@@ -98,7 +92,7 @@ export default class Footer extends React.Component {
                   className="block mt-2 font-bold text-white font-mont"
                 >
                   Name *
-              </label>
+                </label>
               </div>
               <div className="flex flex-col items-start">
                 <input
@@ -114,7 +108,7 @@ export default class Footer extends React.Component {
                   className="block mt-2 font-bold text-white font-mont"
                 >
                   Email *
-              </label>
+                </label>
               </div>
               <div className="flex flex-col items-start">
                 <input
@@ -129,7 +123,7 @@ export default class Footer extends React.Component {
                   className="block mt-2 font-bold text-white font-mont"
                 >
                   Phone
-              </label>
+                </label>
               </div>
             </div>
             <div>
@@ -146,16 +140,19 @@ export default class Footer extends React.Component {
                 required
               >
                 Message *
-            </label>
+              </label>
             </div>
             <div className="flex justify-center h-16 mt-8 lg:justify-end lg:mt-0">
               <button className="button primary" type="submit">
-                Send{" "}
-                <FontAwesomeIcon className="ml-4" icon={faLongArrowAltRight} />
+                Send <LiaLongArrowAltRightSolid className="ml-4" />
               </button>
             </div>
             <div className="flex justify-center h-16 mt-8 lg:justify-end lg:mt-0">
-              <p className="w-full text-center text-white" id="response" style={{ display: 'none' }}></p>
+              <p
+                className="w-full text-center text-white"
+                id="response"
+                style={{ display: "none" }}
+              ></p>
             </div>
           </form>
           <Disclaimer />

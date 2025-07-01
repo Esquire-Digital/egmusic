@@ -1,6 +1,6 @@
 import { useMedia } from "react-use";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLongArrowAltRight } from "@fortawesome/free-solid-svg-icons";
+import { LiaLongArrowAltRightSolid } from "react-icons/lia";
+
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function Spotify() {
@@ -30,7 +30,7 @@ export default function Spotify() {
           rel="noopener noreferrer"
         >
           Listen on spotify
-          <FontAwesomeIcon className="ml-4" icon={faLongArrowAltRight} />
+          <LiaLongArrowAltRightSolid className="ml-4" />
         </a>
       </section>
     </>

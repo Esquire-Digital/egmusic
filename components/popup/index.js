@@ -1,5 +1,4 @@
-import { faLongArrowAltRight } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { LiaLongArrowAltRightSolid } from "react-icons/lia";
 import Cookies from "js-cookie";
 import { useEffect, useState, useRef } from "react";
 import { useMedia } from "react-use";
@@ -146,7 +145,7 @@ export default function Popup() {
           />
           <button className="button">
             SUBSCRIBE
-            <FontAwesomeIcon className="ml-4" icon={faLongArrowAltRight} />
+            <LiaLongArrowAltRightSolid className="ml-4" />
           </button>
         </form>
         {error && <p className="text-center text-red-400">{error}</p>}
