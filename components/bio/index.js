@@ -34,6 +34,13 @@ export default function Bio() {
           .frontmatter-markdown p:last-of-type {
             margin-bottom: 0;
           }
+          h1 {
+            line-height: 2.2rem;
+            margin-bottom: 1rem;
+          }
+          h2 {
+            font-weight: bold;
+          }
         `}</style>
         <BioContent />
       </div>
