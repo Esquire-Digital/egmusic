@@ -1,6 +1,5 @@
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import { attributes, react as BioContent } from '../../content/bio.md';
-
+import { attributes, react as BioContent } from "../../content/bio.md";
 
 export default function Bio() {
   let { title, bioImg, bioImgAlt } = attributes;
@@ -20,22 +19,22 @@ export default function Bio() {
         /> */}
       </div>
       <div className="flex flex-col justify-center p-8 md:p-12 lg:p-16 xl:px-24 md:w-1/2">
-        <p className="mb-12 text-4xl font-bold leading-none lg:whitespace-no-wrap font-mont text-eg-blue">
+        <p className="mb-12 text-4xl font-bold leading-none font-mont text-eg-blue">
           {title}
         </p>
         <style global jsx>{`
-        .frontmatter-markdown {
-          line-height: 2;
-        }
+          .frontmatter-markdown {
+            line-height: 2;
+          }
 
-        .frontmatter-markdown p {
-          margin-bottom: 1.5rem;
-        }
+          .frontmatter-markdown p {
+            margin-bottom: 1.5rem;
+          }
 
-        .frontmatter-markdown p:last-of-type {
-          margin-bottom: 0;
-        }
-      `}</style>
+          .frontmatter-markdown p:last-of-type {
+            margin-bottom: 0;
+          }
+        `}</style>
         <BioContent />
       </div>
     </section>

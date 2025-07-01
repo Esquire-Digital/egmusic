@@ -102,7 +102,7 @@ export default function FrontHero() {
         >
           <FaFacebookF
             className="text-lg transition duration-300 transform rotate-90 hover:text-eg-blue"
-            size="lg"
+            size={"30px"}
           />
         </a>
         <a
@@ -112,8 +112,8 @@ export default function FrontHero() {
           className="mx-4"
         >
           <FaInstagram
-            className="text-lg transition duration-300 transform rotate-90 hover:text-eg-blue"
-            size="lg"
+            className="text-2xl transition duration-300 transform rotate-90 hover:text-eg-blue"
+            size={"30px"}
           />
         </a>
       </div>

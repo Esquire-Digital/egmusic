@@ -1,16 +1,16 @@
 import GridImage from "./image";
-import { attributes } from '../../content/gallery.md';
+import { attributes } from "../../content/gallery.md";
 
 export default function Grid() {
   let { galleryImages } = attributes;
   const style = {
     minHeight: "650px",
     maxWidth: "100vw",
-    overflowX: "hidden"
+    overflowX: "hidden",
   };
   return (
     <section
-      className="relative grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
+      className="relative grid w-full grid-cols-1 overflow-hidden md:grid-cols-2 lg:grid-cols-3"
       id="follow"
       style={style}
     >
@@ -34,7 +34,7 @@ export default function Grid() {
         </a>
       </div>
       <p
-        className="absolute inset-x-0 bottom-0 z-10 text-6xl font-normal leading-none text-center text-transparent uppercase transform translate-y-4 opacity-25 pointer-events-none md:text-mighty md:translate-y-24 lg:text-massive font-ant"
+        className="absolute z-10 my-auto left-0 right-0 flex items-center justify-center  top-0 bottom-0  text-6xl font-normal leading-none text-center text-transparent uppercase pointer-events-none opacity-100 w-[40rem]  md:text-mighty lg:text-massive font-ant"
         style={{
           WebkitTextStrokeWidth: "2px",
           WebkitTextStrokeColor: "#424b54",
